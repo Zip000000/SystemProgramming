@@ -27,7 +27,11 @@ void show() {
     printf("\033[;33m%s\033[0m",hostname);
     printf("\033[;31m:\033[0m");
     printf("\033[;34m%s\033[0m",path);
-    printf("$ ");
+    if(strcmp(name, "root") == 0) {
+        printf("# ");
+    } else {
+        printf("$ ");
+    }
 }
 
 
