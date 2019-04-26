@@ -1,16 +1,16 @@
 /*************************************************************************
-	> File Name: homework_4_23.c
+	> File Name: homework_4_25.c
 	> Author: Zip 
 	> Mail: 307110017@qq.com 
-	> Created Time: 2019年04月24日 星期三 10时05分51秒
+	> Created Time: 2019年04月26日 星期五 09时56分10秒
  ************************************************************************/
 
-
-#include<stdio.h>
-#include <unistd.h>
-#include <pwd.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <signal.h>
 #define MAX_SIZE 200
 #define MIN_SIZE 50
 
@@ -20,20 +20,28 @@ void show() {
 	struct passwd* passwd;
     passwd = getpwuid(getuid());
     char hostname[32];
-    gethostname(hostname,sizeof(hostname));   //<unistd.h>
+    gethostname(hostname, sizeof(hostname));   //<unistd.h>
+    char nwd[MAX_SIZE]; 
+    char home_dir[MIN_SIZE];
+    memset(nwd, 0, strlen(nwd));
+    if(strncmp(wd, passwd->pw_dir, strlen(passwd->pw_dir)) == 0) {
+        sprintf(nwd, "~%s", wd+strlen(passwd->pw_dir));
+    } else {
+        strncpy(nwd, wd, strlen(wd));
+    }
     printf("\033[;32m%s\033[0m", passwd->pw_name);
     printf("\033[;31m@\033[0m");
     printf("\033[;33m%s\033[0m", hostname);
     printf("\033[;31m:\033[0m");
-    printf("\033[;34m%s\033[0m", wd);
+    printf("\033[;34m%s\033[0m", nwd);
     if(strcmp(passwd->pw_name, "root") == 0) {
         printf("# ");
     } else {
         printf("$ ");
     }
+    memset(wd, 0, strlen(wd));
 }
-
-
+//void store_adr(char* all_addr, char* temp)
 int main() {
     char name[MIN_SIZE];
     char addr[MAX_SIZE];
@@ -45,6 +53,7 @@ int main() {
     strncpy(history, wd, strlen(wd));
     int count = 0;
     char all_addr[MAX_SIZE];
+    signal(SIGINT,SIG_IGN);   //忽略ctrl c
     while(1) {
         getcwd(wd,sizeof(wd));
         show();
@@ -58,19 +67,17 @@ int main() {
             } else {
                 scanf("%s",addr);
             }
+            
+            memset(all_addr, 0, strlen(all_addr));  //重构
             if(addr[0] == '/') {
-                memset(all_addr, 0, strlen(all_addr));  //可以重构一下
                 strncpy(all_addr,addr,strlen(addr));
             } else if(addr[0] == '~') {
                 char home[MIN_SIZE]= "/home/zip";
-                memset(all_addr, 0, strlen(all_addr));
                 sprintf(all_addr,"%s/%s", home, addr+1);
             } else if(addr[0] == '-') {
-                memset(all_addr, 0, strlen(all_addr));
                 strncpy(all_addr,history, strlen(history));
                 printf("%s\n", history);
             }else {
-                memset(all_addr, 0, strlen(all_addr));
                 sprintf(all_addr,"%s/%s",wd, addr);
             }
 
