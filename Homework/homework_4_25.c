@@ -13,18 +13,19 @@
 #include <signal.h>
 #define MAX_SIZE 200
 #define MIN_SIZE 50
+	
+struct passwd* passwd;
 
 void show() {
     char wd[MAX_SIZE];
     getcwd(wd, sizeof(wd));
-	struct passwd* passwd;
     passwd = getpwuid(getuid());
     char hostname[32];
     gethostname(hostname, sizeof(hostname));   //<unistd.h>
     char nwd[MAX_SIZE]; 
     char home_dir[MIN_SIZE];
     memset(nwd, 0, strlen(nwd));
-    if(strncmp(wd, passwd->pw_dir, strlen(passwd->pw_dir)) == 0) {
+    if((strncmp(wd, passwd->pw_dir, strlen(passwd->pw_dir)) == 0)) {
         sprintf(nwd, "~%s", wd+strlen(passwd->pw_dir));
     } else {
         strncpy(nwd, wd, strlen(wd));
@@ -72,8 +73,8 @@ int main() {
             if(addr[0] == '/') {
                 strncpy(all_addr,addr,strlen(addr));
             } else if(addr[0] == '~') {
-                char home[MIN_SIZE]= "/home/zip";
-                sprintf(all_addr,"%s/%s", home, addr+1);
+                //char home[MIN_SIZE]= "/home/zip";
+                sprintf(all_addr,"%s/%s", passwd->pw_dir, addr+1);
             } else if(addr[0] == '-') {
                 strncpy(all_addr,history, strlen(history));
                 printf("%s\n", history);
