@@ -5,12 +5,12 @@
 	> Created Time: 2019年04月27日 星期六 18时49分02秒
  ************************************************************************/
 #include <stdio.h>
+#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
 #include <string.h>
 #include <errno.h>
-#include <malloc.h>
 #include <dirent.h>
 #include <pwd.h>
 #include <grp.h>
@@ -70,35 +70,44 @@ void print(struct stat* buf, struct dirent* dirent) {
     printf(" %.12s", 4 + ctime(&buf->st_mtime));
     printf(" %s\t", dirent->d_name);
 }
-void ls_handle(struct stat* buf, char* wd) {
+void ls_handle(char* wd) {
+    struct stat* buf;
+    buf = (struct stat* )malloc(sizeof(struct stat));
     DIR* dir = opendir(wd);
+
+    if(dir == NULL) {
+        perror("opendir");
+        exit(1);
+    }
+
     struct dirent* dirent;
 	while((dirent = readdir(dir)) != NULL)
     {
         char newwd[100];
         sprintf(newwd, "%s/%s", wd, dirent->d_name);
         stat(newwd,buf);
+        if(stat(newwd,buf) < 0) {
+            perror("stat");
+        }
         print(buf, dirent);
         printf("\n");
     }
 }
 
 int main(int argc, char* argv[]) {
-    struct stat* buf;
-    buf = (struct stat* )malloc(sizeof(struct stat));
     char* wd;
     if(argc == 1) {
         wd = getcwd(NULL, 0);
-        ls_handle(buf, wd);
+        ls_handle(wd);
     } else if(argc == 2) {
         wd = argv[1];
-        ls_handle(buf, wd);
+        ls_handle(wd);
     } else {
         for(int i = 1; i < argc; i++) {
             i == 1 || printf("\n");
             wd = argv[i];
             printf("%s:\n", wd);
-            ls_handle(buf, wd);
+            ls_handle(wd);
         }
     }
     return 0;
