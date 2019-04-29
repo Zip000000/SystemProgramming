@@ -4,7 +4,6 @@
 	> Mail: 307110017@qq.com 
 	> Created Time: 2019年04月27日 星期六 18时49分02秒
  ************************************************************************/
-
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -64,22 +63,16 @@ void print(struct stat* buf, struct dirent* dirent) {
     //print_mode(buf);
 	char str[100];
     printf("%s", print_mode(buf, str));
-    printf(" %ld" , buf->st_nlink);
+    printf(" %4ld" , buf->st_nlink);
     printf(" %-8s", getpwuid(buf->st_uid)->pw_name);
     printf(" %-8s", getgrgid(buf->st_gid)->gr_name);
     printf(" %8ld" , buf->st_size);
     printf(" %.12s", 4 + ctime(&buf->st_mtime));
     printf(" %s\t", dirent->d_name);
 }
-
-int main() {
-    struct stat* buf;
-    buf = (struct stat* )malloc(sizeof(struct stat));
-    char wd[100];
-    strcpy(wd, "/home/zip/haizei/3.SystemProgramming/Homework/");
+void ls_handle(struct stat* buf, char* wd) {
     DIR* dir = opendir(wd);
     struct dirent* dirent;
-    
 	while((dirent = readdir(dir)) != NULL)
     {
         char newwd[100];
@@ -87,7 +80,26 @@ int main() {
         stat(newwd,buf);
         print(buf, dirent);
         printf("\n");
+    }
+}
 
+int main(int argc, char* argv[]) {
+    struct stat* buf;
+    buf = (struct stat* )malloc(sizeof(struct stat));
+    char* wd;
+    if(argc == 1) {
+        wd = getcwd(NULL, 0);
+        ls_handle(buf, wd);
+    } else if(argc == 2) {
+        wd = argv[1];
+        ls_handle(buf, wd);
+    } else {
+        for(int i = 1; i < argc; i++) {
+            i == 1 || printf("\n");
+            wd = argv[i];
+            printf("%s:\n", wd);
+            ls_handle(buf, wd);
+        }
     }
     return 0;
 }
