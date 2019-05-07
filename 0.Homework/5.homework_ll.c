@@ -93,7 +93,6 @@ void ls_handle(char* wd) {
         printf("\n");
     }
 }
-
 int main(int argc, char* argv[]) {
     char* wd;
     if(argc == 1) {
