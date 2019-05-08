@@ -1,7 +1,6 @@
 # System Programming
 # 这是一个练习 System Programming 的仓库哟～
 
-``bash
 .
 ├── 0.Homework
 │   ├── 0.test.c
@@ -12,8 +11,8 @@
 │   ├── 5.homework_ll.c
 │   ├── 6.homework_cd_improved.c
 │   ├── 7.homework_ls_sorted_failed.cpp
-│   ├── 8.homework_ls_sorted.cpp
-│   ├── a.out
+│   ├── 8.homework_ls_sorted.cpp          //最新ls代码在这里！   
+│   ├── a.out
 │   ├── ll测试1.png
 │   ├── ls测试1.png
 │   ├── ls测试2.png
