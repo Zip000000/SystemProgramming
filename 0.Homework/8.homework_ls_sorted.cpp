@@ -7,7 +7,6 @@
 
 #include<iostream>
 #include <algorithm>
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -72,7 +71,7 @@ char* print_mode(struct stat* buf, char* str)
     return str;
 }
 
-void ll_print(struct stat* buf, struct dirent* dirent) {
+void ll_print(struct stat* buf, struct dirent* dirent) {              //按ll输出
     //print_mode(buf);
 	char str[100];
     printf("%s", print_mode(buf, str));
@@ -84,38 +83,36 @@ void ll_print(struct stat* buf, struct dirent* dirent) {
     printf(" %s\t", dirent->d_name);
 }
 
-int get_col() {
+
+int get_col() {                                                       //得到bash窗口宽度
    struct winsize size;
-    ioctl(STDIN_FILENO,TIOCGWINSZ,&size);   //取得宽度  需要再研究一下
+    ioctl(STDIN_FILENO,TIOCGWINSZ,&size);//主要
 	return size.ws_col;
 }
-int get_maxwords(char filename[][MAX_FILEWORDS_NUM], int a, int b)  {
-    //在从 第一个参数开始 的 n 个文件中 找出最长名字的长度
+int get_maxwords(char filename[][MAX_FILEWORDS_NUM], int a, int b)  { //得到 a～b 范围内最长文件名
     int max = 0;
 	for (int i = a; i < b; i++) {
         int temp = strlen(&filename[i][0]); 
         max = max > temp ? max : temp; 
     }
-
-    return max+2;
+    return max+2;  //返回时加2 留出每列之间的2个字符间隙
 }
-int get_minwords(char filename[][MAX_FILEWORDS_NUM], int a, int b)  {
-    //在从 第一个参数开始 的 n 个文件中 找出最长名字的长度
+int get_minwords(char filename[][MAX_FILEWORDS_NUM], int a, int b)  { //得到 a～b 范围内最短文件名
     int min = MAX_FILEWORDS_NUM;
 	for (int i = a; i < b; i++) {
         int temp = strlen(&filename[i][0]); 
         min = min < temp ? min : temp; 
     }
-    return min+2;
+    return min+2;  //返回时加2 留出每列之间的2个字符间隙
 }
-int get_listlong(int cnt, int listnum) {
+int get_listlong(int cnt, int listnum) {                              //得到以listnum为总列数时 每列应该输出的文件数量
     if(cnt % listnum == 0) {
         return cnt/listnum;
     } else {
         return cnt/listnum+1;
     }
 }
-void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {
+int get_bestlistnum(char filename[][MAX_FILEWORDS_NUM], int cnt) {    //得到 最佳 列数 listunm
     int col = get_col();
 	int max = get_maxwords(filename, 0, cnt);
     int min = get_minwords(filename, 0, cnt);
@@ -137,10 +134,13 @@ void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {
             }
             if(maxsum <= col) continue; else break;
         }
-        listnum--;   //listnum=ans了
+        listnum--;
     }
+    return listnum;
+}
 
-
+void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {          // ls 打印
+    int listnum = get_bestlistnum(filename, cnt);
     int listlong = get_listlong(cnt, listnum);
     int listmax[listnum] = {0};
     for(int i = 0; i < listnum; i++) {
@@ -152,26 +152,24 @@ void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {
         }
     printf("\n");
     }
-    
     printf("\n一共有%d个文件  最终的列数为：%d  每列有%d个文件  \n", cnt, listnum, listlong);
-
-    
 }
-void file_store(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, int* cnt) {
+
+void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, int* cnt) {              //储存文件名
 	sprintf(&filename[(*cnt)++][0], "%s", dirent->d_name);
 }
+
 int cmp(const void *a, const void *b) {
     char *s1 = (char *)a;
     char *s2 = (char *)b;
     return strcmp(s1, s2);
 }
-void file_sort(char filename[][MAX_FILEWORDS_NUM], int cnt) {
+void file_sort(char filename[][MAX_FILEWORDS_NUM], int cnt) {         //排序文件名
     qsort(&filename[0][0], cnt, MAX_FILEWORDS_NUM, cmp);   //排序成功
 
 }
 
-void ls_handle(char* wd, int flag) {
-    //printf("进入lshandle成功！\n");
+void ls_handle(char* wd, int flag) {                                  //处理ls 或 ll 命令
     struct stat* buf;
     buf = (struct stat* )malloc(sizeof(struct stat));
     DIR* dir = opendir(wd);
@@ -183,11 +181,7 @@ void ls_handle(char* wd, int flag) {
     char filename[MAX_FILENUM][MAX_FILEWORDS_NUM]; 
     int cnt = 0;
     struct dirent* dirent;
-    //printf("flag = %d\n", flag);
-    //printf("flag&LL = %d\n", flag&LLFLAG);
-    //printf("flag&LS = %d\n", flag&LSFLAG);
 	while((dirent = readdir(dir)) != NULL) {
-        //printf("进入循环成功\n");
         char newwd[100];
         sprintf(newwd, "%s/%s", wd, dirent->d_name);
         stat(newwd,buf);
@@ -198,10 +192,10 @@ void ls_handle(char* wd, int flag) {
             ll_print(buf, dirent);
             printf("\n");
         } else if(flag & LSFLAG) {
-            file_store(filename, dirent, &cnt);
+            filename_save(filename, dirent, &cnt);
         } 
     }
-    
+    //***************************************
     file_sort(filename, cnt);
     ls_print(filename, cnt);
 }
@@ -209,8 +203,7 @@ void ls_handle(char* wd, int flag) {
 int main(int argc, char* argv[]) {
     char* wd;
     int flag = 0;
-    if((argc == 1 ) || strcmp(argv[1], "-al") != 0) {
-        printf("处理ls：\n");
+    if((argc == 1 ) || strcmp(argv[1], "-al") != 0) {        //ls
         flag |= LSFLAG;
         if(argc == 1) {    //无地址参数  缺省为当前目录
             wd = getcwd(NULL, 0);
@@ -226,7 +219,7 @@ int main(int argc, char* argv[]) {
                 ls_handle(wd, flag);
             }
         }
-    } else {
+    } else {                                                 //ll
         flag |= LLFLAG;
         if(argc == 2) {    //无地址参数  缺省为当前目录
             wd = getcwd(NULL, 0);
