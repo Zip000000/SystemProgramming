@@ -1,8 +1,8 @@
 /*************************************************************************
-	> File Name: 8.homework_ls_sorted.cpp
+	> File Name: 9.ls_ll_allsorted.cpp
 	> Author: Zip 
 	> Mail: 307110017@qq.com 
-	> Created Time: 2019年05月08日 星期三 12时27分09秒
+	> Created Time: 2019年05月08日 星期三 22时40分00秒
  ************************************************************************/
 
 #include<iostream>
@@ -175,6 +175,9 @@ void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, in
 		sprintf(&filename[(*cnt)++][0], "%s", name_temp);
 	}
 }
+
+void ll_
+
 void ls_handle(char* wd, int flag) {                                  //处理ls 或 ll 命令
     struct stat* buf;
     buf = (struct stat* )malloc(sizeof(struct stat));
