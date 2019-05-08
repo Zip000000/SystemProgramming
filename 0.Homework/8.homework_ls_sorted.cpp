@@ -108,30 +108,54 @@ int get_minwords(char filename[][MAX_FILEWORDS_NUM], int a, int b)  {
     }
     return min+2;
 }
+int get_listlong(int cnt, int listnum) {
+    if(cnt % listnum == 0) {
+        return cnt/listnum;
+    } else {
+        return cnt/listnum+1;
+    }
+}
 void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {
     int col = get_col();
 	int max = get_maxwords(filename, 0, cnt);
     int min = get_minwords(filename, 0, cnt);
     int listnum;
-    for (listnum = col/max + 1; listnum <= col/min + 1; listnum++) {  //循环找到最合适的列数
-        int listlong = cnt/listnum; //先这样 一会需要改这里  
-        int listmax[listnum] = {0};   //每列的最长文件名
-        for(int i = 0; i < listnum; i++) {
-            //for(int j = i*listlong; j < ( (i*listnum+listnum)>cnt?cnt:(i*listnum+listnum)); j++ ){
-            //    int temp = get_maxwords(filename, i*listlong, (i*listlong+listlong) > cnt ? cnt : (i*listlong+listlong));
-            //    listmax[i] = listmax[i] > temp ? listmax[i] : temp;
-            //}
-            listmax[i] = get_maxwords(filename, i*listlong, (i*listlong+listlong)>cnt?cnt:(i*listlong+listlong));
-        }
+    
+    if(max > col) {
+        listnum = 1;
+    } else {
+        for (listnum = col/max; listnum <= col/min; listnum++) {  //循环找到最合适的列数
+            int listlong = get_listlong(cnt, listnum); //先这样 一会需要改这里  
+            int listmax[listnum] = {0};   //每列的最长文件名
+            for(int i = 0; i < listnum; i++) {
+                listmax[i] = get_maxwords(filename, i*listlong, (i*listlong+listlong));
+            }
 
-        int maxsum = 0;
-        for(int i = 0; i < listnum; i++) {
-            maxsum+=listmax[i];
+            int maxsum = 0;
+            for(int i = 0; i < listnum; i++) {
+                maxsum+=listmax[i];
+            }
+            if(maxsum <= col) continue; else break;
         }
-        if(maxsum <= col) continue; else break;
+        listnum--;   //listnum=ans了
     }
-    int ans = listnum-1;   //ans 就是最终的行数！！！！！！
 
+
+    int listlong = get_listlong(cnt, listnum);
+    int listmax[listnum] = {0};
+    for(int i = 0; i < listnum; i++) {
+        listmax[i] = get_maxwords(filename, i*listlong, (i*listlong+listlong));
+    }
+    for(int i = 0; i < listlong; i++) {
+        for(int j = 0; j < listnum; j++) {
+            printf("%-*s", listmax[j], &filename[i+j*listlong][0]);
+        }
+    printf("\n");
+    }
+    
+    printf("\n一共有%d个文件  最终的列数为：%d  每列有%d个文件  \n", cnt, listnum, listlong);
+
+    
 }
 void file_store(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, int* cnt) {
 	sprintf(&filename[(*cnt)++][0], "%s", dirent->d_name);
