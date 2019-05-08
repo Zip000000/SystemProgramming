@@ -152,11 +152,17 @@ void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {          // ls 打�
         }
     printf("\n");
     }
-    printf("\n一共有%d个文件  最终的列数为：%d  每列有%d个文件  \n", cnt, listnum, listlong);
 }
 
 void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, int* cnt) {              //储存文件名
-	sprintf(&filename[(*cnt)++][0], "%s", dirent->d_name);
+    char name_temp[MAX_FILEWORDS_NUM];
+    strcpy(name_temp, dirent->d_name);
+    //printf("name_temp%d = %s\n", *cnt, name_temp);
+	if(strncmp(name_temp, ".", 1) == 0) {    //处理隐藏文件
+        return ;
+	} else {
+		sprintf(&filename[(*cnt)++][0], "%s", name_temp);
+	}
 }
 
 int cmp(const void *a, const void *b) {
