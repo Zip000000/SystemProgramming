@@ -71,6 +71,17 @@ char* print_mode(struct stat* buf, char* str)
     return str;
 }
 
+int cmp(const void *a, const void *b) {
+    char *s1 = (char *)a;
+    char *s2 = (char *)b;
+    return strcmp(s1, s2);
+}
+void file_sort(char filename[][MAX_FILEWORDS_NUM], int cnt) {         //排序文件名
+    qsort(&filename[0][0], cnt, MAX_FILEWORDS_NUM, cmp);   //排序成功
+
+}
+
+
 void ll_print(struct stat* buf, struct dirent* dirent) {              //按ll输出
     //print_mode(buf);
 	char str[100];
@@ -164,17 +175,6 @@ void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, in
 		sprintf(&filename[(*cnt)++][0], "%s", name_temp);
 	}
 }
-
-int cmp(const void *a, const void *b) {
-    char *s1 = (char *)a;
-    char *s2 = (char *)b;
-    return strcmp(s1, s2);
-}
-void file_sort(char filename[][MAX_FILEWORDS_NUM], int cnt) {         //排序文件名
-    qsort(&filename[0][0], cnt, MAX_FILEWORDS_NUM, cmp);   //排序成功
-
-}
-
 void ls_handle(char* wd, int flag) {                                  //处理ls 或 ll 命令
     struct stat* buf;
     buf = (struct stat* )malloc(sizeof(struct stat));
