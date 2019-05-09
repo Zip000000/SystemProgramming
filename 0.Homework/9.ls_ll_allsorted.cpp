@@ -132,18 +132,6 @@ File* fileinfo_save(struct stat* buf, struct dirent* dirent, int* cnt, File* fil
     sprintf(file[*cnt].time, " %.12s", 4 + ctime(&buf->st_mtime));
     sprintf(file[*cnt].name, " %s", dirent->d_name);
     (*cnt)++;
-    //A
-    //char strr[100];
-    //printf("*******************************\n");
-    //printf("%s", print_mode(buf, strr));
-    //printf(" %4ld" , buf->st_nlink);
-    //printf(" %-8s", getpwuid(buf->st_uid)->pw_name);
-    //printf(" %-8s", getgrgid(buf->st_gid)->gr_name);
-    //printf(" %8ld" , buf->st_size);
-    //printf(" %.12s", 4 + ctime(&buf->st_mtime));
-    //printf(" %s\t", dirent->d_name);
-    //printf("cnt = %d\n", *cnt);
-    //printf("*******************************\n");
     return file;
 }
 
@@ -227,6 +215,7 @@ void ls_print(char filename[][MAX_FILEWORDS_NUM], int cnt) {          // ls 打�
         }
     printf("\n");
     }
+    //printf("共有%d个文件  最优分成%d列 每列最多输出%d个文件\n", cnt, listnum, listlong);
 }
 
 void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, int* cnt) {              //储存文件名
