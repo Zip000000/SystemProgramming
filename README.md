@@ -1,7 +1,7 @@
 # System Programming
 
 
-### ls&ll命令源代码在 [这里](https://github.com/Zip000000/SystemProgramming/blob/master/0.Homework/9.ls_ll_allsorted.cpp)
+### ls&ll命令源代码在 [这里](https://github.com/Zip000000/SystemProgramming/blob/master/0.Homework/9.ls_ll_allsorted.cpp){:target="_blank"}
 
 ### 其中ls已经实现了需要的功能，能够智能分栏，并排序。
 #### ls测试——1
