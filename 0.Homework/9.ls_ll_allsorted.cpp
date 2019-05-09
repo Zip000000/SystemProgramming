@@ -25,6 +25,14 @@ using namespace std;
 #define MAX_FILENUM 1000    //文件数
 #define MAX_FILEWORDS_NUM 100     //文件名长度
 
+#define MODE_SIZE 20
+#define LINK_SIZE 20
+#define ID_SIZE 20
+#define ID_SIZE 20
+#define ST_SIZE 20
+#define TIME_SIZE 20
+#define NAMESIZE 100
+
 #define LSFLAG 2
 #define LLFLAG 4
 
@@ -71,27 +79,83 @@ char* print_mode(struct stat* buf, char* str)
     return str;
 }
 
-int cmp(const void *a, const void *b) {
+int ls_cmp(const void *a, const void *b) {
     char *s1 = (char *)a;
     char *s2 = (char *)b;
     return strcmp(s1, s2);
 }
 void file_sort(char filename[][MAX_FILEWORDS_NUM], int cnt) {         //排序文件名
-    qsort(&filename[0][0], cnt, MAX_FILEWORDS_NUM, cmp);   //排序成功
+    qsort(&filename[0][0], cnt, MAX_FILEWORDS_NUM, ls_cmp);   //排序成功
 
 }
 
+typedef struct fileinfo{
+    char mode[MODE_SIZE];
+    char link[LINK_SIZE];
+    char uid[ID_SIZE];
+    char gid[ID_SIZE];
+    char st[ST_SIZE];
+    char time[TIME_SIZE];
+    char name[NAMESIZE];
+}File;
 
-void ll_print(struct stat* buf, struct dirent* dirent) {              //按ll输出
+
+void ll_print(struct stat* buf, struct dirent* dirent, int cnt, File* file) {              //按ll输出
+    for(int i = 0; i < cnt; i++) {
+		printf("%s", file[i].mode);
+		printf("%s", file[i].link);
+		printf("%s", file[i].uid);
+		printf("%s", file[i].gid);
+		printf("%s", file[i].st);
+		printf("%s", file[i].time);
+		printf("%s", file[i].name);
+	    printf("\n");
+	} 
     //print_mode(buf);
+	//char str[100];
+    //printf("%s", print_mode(buf, str));
+    //printf(" %4ld" , buf->st_nlink);
+    //printf(" %-8s", getpwuid(buf->st_uid)->pw_name);
+    //printf(" %-8s", getgrgid(buf->st_gid)->gr_name);
+    //printf(" %8ld" , buf->st_size);
+    //printf(" %.12s", 4 + ctime(&buf->st_mtime));
+    //printf(" %s\t", dirent->d_name);
+}
+
+File* fileinfo_save(struct stat* buf, struct dirent* dirent, int* cnt, File* file) {
 	char str[100];
-    printf("%s", print_mode(buf, str));
-    printf(" %4ld" , buf->st_nlink);
-    printf(" %-8s", getpwuid(buf->st_uid)->pw_name);
-    printf(" %-8s", getgrgid(buf->st_gid)->gr_name);
-    printf(" %8ld" , buf->st_size);
-    printf(" %.12s", 4 + ctime(&buf->st_mtime));
-    printf(" %s\t", dirent->d_name);
+    sprintf(file[*cnt].mode, "%s", print_mode(buf, str));
+    sprintf(file[*cnt].link, " %4ld" , buf->st_nlink);
+    sprintf(file[*cnt].uid, " %-8s", getpwuid(buf->st_uid)->pw_name);
+    sprintf(file[*cnt].gid, " %-8s", getgrgid(buf->st_gid)->gr_name);
+    sprintf(file[*cnt].st, " %8ld" , buf->st_size);
+    sprintf(file[*cnt].time, " %.12s", 4 + ctime(&buf->st_mtime));
+    sprintf(file[*cnt].name, " %s", dirent->d_name);
+    (*cnt)++;
+    //A
+    //char strr[100];
+    //printf("*******************************\n");
+    //printf("%s", print_mode(buf, strr));
+    //printf(" %4ld" , buf->st_nlink);
+    //printf(" %-8s", getpwuid(buf->st_uid)->pw_name);
+    //printf(" %-8s", getgrgid(buf->st_gid)->gr_name);
+    //printf(" %8ld" , buf->st_size);
+    //printf(" %.12s", 4 + ctime(&buf->st_mtime));
+    //printf(" %s\t", dirent->d_name);
+    //printf("cnt = %d\n", *cnt);
+    //printf("*******************************\n");
+    return file;
+}
+
+int ll_cmp(const void *a, const void *b) {
+    File* s1 = (File *)a;
+    File* s2 = (File *)b;
+    //printf("comparing.... :%s and %s\n", s1->name, s2->name);
+    return strcmp(s1->name, s2->name);
+}
+File* ll_file_sort(File* file, int cnt) {
+    qsort(file, cnt, sizeof(File), ll_cmp);   //排序成功
+    return file;
 }
 
 
@@ -176,7 +240,6 @@ void filename_save(char filename[][MAX_FILEWORDS_NUM], struct dirent* dirent, in
 	}
 }
 
-void ll_
 
 void ls_handle(char* wd, int flag) {                                  //处理ls 或 ll 命令
     struct stat* buf;
@@ -190,6 +253,7 @@ void ls_handle(char* wd, int flag) {                                  //处理ls
     char filename[MAX_FILENUM][MAX_FILEWORDS_NUM]; 
     int cnt = 0;
     struct dirent* dirent;
+    File* file = (File* )malloc(sizeof(File)*MAX_FILENUM);
 	while((dirent = readdir(dir)) != NULL) {
         char newwd[100];
         sprintf(newwd, "%s/%s", wd, dirent->d_name);
@@ -199,15 +263,20 @@ void ls_handle(char* wd, int flag) {                                  //处理ls
             exit(1);
         }
         if(flag & LLFLAG) {
-            ll_print(buf, dirent);
-            printf("\n");
+            file = fileinfo_save(buf, dirent, &cnt, file);
         } else if(flag & LSFLAG) {
             filename_save(filename, dirent, &cnt);
         } 
     }
     //***************************************
-    file_sort(filename, cnt);
-    ls_print(filename, cnt);
+    if(flag & LLFLAG) {
+        file = ll_file_sort(file, cnt);
+        ll_print(buf, dirent, cnt, file);
+    } else if(flag & LSFLAG) {
+        file_sort(filename, cnt);
+        ls_print(filename, cnt);
+    } 
+
 }
 
 int main(int argc, char* argv[]) {
