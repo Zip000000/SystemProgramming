@@ -40,15 +40,13 @@ char* print_mode(struct stat* buf, char* str)
 {
     int mode = buf->st_mode;
     strcpy(str, "----------");
-    if (S_ISDIR(mode)) { 
-        str[0] = 'd';
-    }
-    if (S_ISCHR(mode)) {
-        str[0] = 'c';
-    }
-     if (S_ISBLK(mode)) {
-        str[0] = 'b';
-    }
+    if (S_ISDIR(mode)) str[0] = 'd';
+    if (S_ISCHR(mode)) str[0] = 'c';
+    if (S_ISBLK(mode)) str[0] = 'b';
+    if(S_ISSOCK(mode)) str[0] = 's';
+    if(S_ISFIFO(mode)) str[0] = 'p';
+    if(S_ISLNK(mode)) str[0] = 'l';
+
      if ((mode & S_IRUSR)) {
         str[1] = 'r';
     }

@@ -83,7 +83,7 @@ int cp_dtod_exist(char* a, char* b) {
         perror("opendir");
         exit(1);
     }
-    struct dirent* dirent;
+    struct dirent* dirent;     //接下来要处理隐藏文件！！！！
     while ((dirent = readdir(dir)) != NULL ) {
         printf("进入while\n");
         char* a_name ;
