@@ -76,6 +76,8 @@ int cp_atob_dir(char* a, char* b_dir) {
     cp_atob_file(a_name, b_name);
 }
 
+void make_dir(char* path, )
+
 int cp_dtod_exist(char* a, char* b) {
     printf("进入 dtodexist \n");
     DIR* dir;
@@ -87,11 +89,14 @@ int cp_dtod_exist(char* a, char* b) {
     while ((dirent = readdir(dir)) != NULL ) {
         printf("进入while\n");
         char* a_name ;
-        a_name = get_plusname(a, dirent->d_name);
+        char* str_temp = dirent->d_name;
+        if(strncmp(str_temp, ".", 1) == 0) continue;
+        char* a_temp; strcpy(a_temp, a);
+        a_name = get_plusname(a_temp, str_temp);
         printf("********aname = %s  b = %s\n", a_name, b);
         
 
-        cp_atob_dir(a_name, b);
+        //cp_atob_dir(a_name, b);
     }
     
     
