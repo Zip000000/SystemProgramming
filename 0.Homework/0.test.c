@@ -10,26 +10,11 @@
 #include<sys/ioctl.h>
 #include<unistd.h>
 #include<termios.h>
-int main()
-{
-    struct winsize size;
-    ioctl(STDIN_FILENO,TIOCGWINSZ,&size);   //取得宽度  需要再研究一下
-    printf("col = %d\n",size.ws_col);   //宽度
-    //printf("row = %d\n",size.ws_row);
-    
-    printf("\n");
-    for (int i = 0; i < size.ws_col; i++ ) {
-        printf("a");
-    }
-    printf("\n");
-    for (int i = 0; i < size.ws_col; i++ ) {
-        printf("b");
-    }
-    printf("\n");
-
-
-
-    
-
+#include<string.h>
+int main() {
+    char* a = "/homg/zip/haizei/a.c";
+    char* fname = strrchr(a, '/');
+    printf("fname = %s\n", fname);
+    printf("a = %c\n", a[strlen(a)-1]);
     return 0;
 }
