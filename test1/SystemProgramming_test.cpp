@@ -1,13 +1,15 @@
 /*************************************************************************
-	> File Name: test1.c
+	> File Name: SystemProgramming_test.cpp
 	> Author: 
 	> Mail: 
-	> Created Time: 2019年04月14日 星期日 14时27分26秒
+	> Created Time: 2019年04月14日 星期日 14时25分52秒
  ************************************************************************/
 
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int main()
 {
-    cout<<"ll"<<endl;
+
+    return 0;
 }
