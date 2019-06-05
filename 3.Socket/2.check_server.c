@@ -24,16 +24,14 @@ int main() {
 
     struct sockaddr_in sock_addr;
     memset(&sock_addr, 0, sizeof(sock_addr));
-
     sock_addr.sin_family = AF_INET;
     sock_addr.sin_addr.s_addr = inet_addr("192.168.43.214");
     sock_addr.sin_port = htons(1234);
 
     bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
-
     listen(serv_sock, 100);
-    
     printf("listenning......\n");
+
     struct sockaddr_in clnt_addr;
     socklen_t clnt_addr_size = sizeof(clnt_addr);
     int clnt_sock;
@@ -44,22 +42,19 @@ int main() {
             my_id++;
             cpid = fork();
         }
-
         if(cpid == 0) {
             break;
         }
     }
-    
+
+    if(cpid == 0) {
         char username[50];
         recv(clnt_sock, username, sizeof(username), 0);
         printf("PID = %d : ID : %d : username = %s\n", getpid(), my_id, username);
         sleep(10000);
-
-
+    }
     close(clnt_sock);
     close(serv_sock);
-    
-
 	return 0;
 
 }
