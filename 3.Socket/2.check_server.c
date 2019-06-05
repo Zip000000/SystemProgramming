@@ -14,7 +14,11 @@
 #include <string.h>
 #include <pwd.h>
 
+
+
 int main() {
+    int my_id = 1;
+    pid_t cpid = 1;
     int serv_sock;
     serv_sock = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -28,14 +32,29 @@ int main() {
     bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
 
     listen(serv_sock, 100);
+    
     printf("listenning......\n");
     struct sockaddr_in clnt_addr;
     socklen_t clnt_addr_size = sizeof(clnt_addr);
-    int clnt_sock = accept(serv_sock, (struct sockaddr*)&clnt_addr, &clnt_addr_size);
+    int clnt_sock;
+    while(1) {
+        clnt_sock = accept(serv_sock, (struct sockaddr*)&clnt_addr, &clnt_addr_size);
+        printf("accept success!\n");
+        if(cpid != 0) {
+            my_id++;
+            cpid = fork();
+        }
 
-    char username[50];
-    recv(clnt_sock, username, sizeof(username), 0);
-    printf("username = %s\n", username);
+        if(cpid == 0) {
+            break;
+        }
+    }
+    
+        char username[50];
+        recv(clnt_sock, username, sizeof(username), 0);
+        printf("PID = %d : ID : %d : username = %s\n", getpid(), my_id, username);
+        sleep(10000);
+
 
     close(clnt_sock);
     close(serv_sock);
