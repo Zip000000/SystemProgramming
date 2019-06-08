@@ -8,7 +8,7 @@
 #include<stdio.h>
 
 int main() {
-
+    printf("hi nihao!\n");
     printf("hello haizei\n");
     return 0;
 }
