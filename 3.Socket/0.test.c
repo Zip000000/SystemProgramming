@@ -9,6 +9,7 @@
 
 int main() {
     printf("hi nihao!\n");
+    printf("i am tired");
     printf("hello haizei\n");
     return 0;
 }
