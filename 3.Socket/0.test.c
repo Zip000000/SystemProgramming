@@ -10,6 +10,7 @@
 int main() {
     printf("hi nihao!\n");
     printf("i am tired");
+    printf("i honly have one day to review for my test!\n");
     printf("hello haizei\n");
     return 0;
 }
