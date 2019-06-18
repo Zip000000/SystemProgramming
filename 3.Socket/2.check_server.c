@@ -25,8 +25,8 @@ int main() {
     struct sockaddr_in sock_addr;
     memset(&sock_addr, 0, sizeof(sock_addr));
     sock_addr.sin_family = AF_INET;
-    sock_addr.sin_addr.s_addr = inet_addr("192.168.43.214");
-    sock_addr.sin_port = htons(1234);
+    sock_addr.sin_addr.s_addr = inet_addr("192.168.2.90");
+    sock_addr.sin_port = htons(8888);
 
     bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
     listen(serv_sock, 100);
@@ -51,7 +51,7 @@ int main() {
         char username[50];
         recv(clnt_sock, username, sizeof(username), 0);
         printf("PID = %d : ID : %d : username = %s\n", getpid(), my_id, username);
-        sleep(10000);
+        //sleep(10000);
     }
     close(clnt_sock);
     close(serv_sock);

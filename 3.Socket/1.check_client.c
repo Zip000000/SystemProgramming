@@ -39,8 +39,8 @@ int main() {
 	int  socket_fd;
 	struct passwd *pwd;
 	pwd = getpwuid(getuid());
-	char ip_addr[20] = "192.168.43.214";
-	int port = 1234;
+	char ip_addr[20] = "192.168.2.90";
+	int port = 8888;
 	char username[20] = {0};
 	strcpy(username, pwd->pw_name);
 	socket_fd = socket_connect(port, ip_addr);
