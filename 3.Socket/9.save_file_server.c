@@ -14,6 +14,8 @@
 #include <string.h>
 #include <pwd.h>
 
+#include <pthread.h>
+
 #define MAXBUF 1024
 #define MAXFILENAME 50
 
@@ -33,50 +35,15 @@ char* get_newfname(char* oldfname, char* newfname) {
         memset(newfname, 0, sizeof(newfname));
         sprintf(newfname, "%s_%d", oldfname, count);
         count++;
-        //itoa(count,cnt,10);
-        //strcat(add, cnt);
-        //strcat(temp, add);
-        //strcpy(newfname, temp);
     }
     //printf("********newname = %s\n", newfname);
     return newfname;
 }
-
-int main() {
-    int my_id = 1;
-    pid_t cpid = 1;
-    int serv_sock;
-    serv_sock = socket(AF_INET, SOCK_STREAM, 0);
-
-    struct sockaddr_in sock_addr;
-    memset(&sock_addr, 0, sizeof(sock_addr));
-    sock_addr.sin_family = AF_INET;
-    sock_addr.sin_addr.s_addr = inet_addr("192.168.43.214");
-    sock_addr.sin_port = htons(8888);
-
-    bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
-    listen(serv_sock, 100);
-    printf("正在等待对方发送文件......\n");
-
-    struct sockaddr_in clnt_addr;
-    socklen_t clnt_addr_size = sizeof(clnt_addr);
+void *saveit(void *arg) {
     int clnt_sock;
-    while(1) {
-        clnt_sock = accept(serv_sock, (struct sockaddr*)&clnt_addr, &clnt_addr_size);
-        printf("*******************************\n");
-        printf("连接成功，开始接收文件......\n");
-        if(cpid != 0) {
-            my_id++;
-            cpid = fork();
-        }
-        if(cpid == 0) {
-            break;
-        }
-    }
+    clnt_sock = *(int *)arg;
 
-    if(cpid == 0) {
-        //printf("进入子程序\n");
-        
+        printf("进入子线程！\n");
         char filename[MAXFILENAME];
         memset(filename, 0, sizeof(filename));
         int checkfilename;
@@ -84,9 +51,17 @@ int main() {
         send(clnt_sock, &checkfilename, 4, 0);
         char buf[MAXBUF];
         FILE *fp_to;
-        
+        char *temp;
+        char oldfname[MAXFILENAME];
+        strcpy(oldfname, filename);
+        if(strrchr(filename, '/') != NULL) {
+            printf("get temp\n");
+            temp = strrchr(filename, '/');
+            printf("temp = %s\n", temp);
+            strcpy(oldfname, temp+1);
+    }
         char newfilename[MAXFILENAME];
-        if((fp_to = fopen(get_newfname(filename, newfilename), "wb+")) == NULL) {
+        if((fp_to = fopen(get_newfname(oldfname, newfilename), "wb+")) == NULL) {
             perror("fopen");
             exit(1);
         }
@@ -104,11 +79,40 @@ int main() {
             memset(buf, 0, sizeof(buf));
         }
         //printf("PID = %d : ID : %d : newfilename = %s\n", getpid(), my_id, filename);
-        printf("接受文件成功！文件名为：[%s]\n", newfilename);
-    }
+        sleep(1);
+        printf("***************************************接受文件成功！文件名为：[%s]\n", newfilename);
     close(clnt_sock);
-    close(serv_sock);
-	return 0;
+
+	return NULL;
 
 }
 
+
+int main() {
+    pthread_t pthread_id;
+    int id_cnt = 0;
+    int serv_sock;
+    serv_sock = socket(AF_INET, SOCK_STREAM, 0);
+    struct sockaddr_in sock_addr;
+    memset(&sock_addr, 0, sizeof(sock_addr));
+    sock_addr.sin_family = AF_INET;
+    sock_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+    sock_addr.sin_port = htons(8888);
+    bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
+    listen(serv_sock, 100);
+    printf("正在等待对方发送文件......\n");
+
+    struct sockaddr_in clnt_addr;
+    socklen_t clnt_addr_size = sizeof(clnt_addr);
+    int clnt_sock;
+    while(1) {
+        clnt_sock = accept(serv_sock, (struct sockaddr*)&clnt_addr, &clnt_addr_size);
+        printf("第 %d 次连接：\n", id_cnt);
+        printf("连接成功，开始接收文件......\n");
+        pthread_create(&pthread_id, NULL, saveit, &clnt_sock);
+        //pthread_join(pthread_id, NULL);
+        //printf("id_cnt = %d, pthread_id =  传输完成！\n", id_cnt);
+        id_cnt++;
+    }
+    close(serv_sock);
+}
