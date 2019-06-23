@@ -140,25 +140,6 @@ void* recv_opt(void* arg) {
                 if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 1;break;} 
                 if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -1;break;}
         }
-        /*
-        if(info.ppos[uid].col == info.bpos.col && info.ppos[uid].row == info.bpos.row) {
-            //如果碰撞
-            hit_dir_col = my_last_col- info.bpos.col ;
-            hit_dir_row = my_last_row - info.bpos.row;
-            if(hit_dir_row == 0 && hit_dir_col == -1) b_mv.row = 0, b_mv.col = 1; 
-            if(hit_dir_row == -1 && hit_dir_col == 0) b_mv.row = 1, b_mv.col = 0; 
-            if(hit_dir_row == 0 && hit_dir_col == 1) b_mv.row = 0, b_mv.col = -1; 
-            if(hit_dir_row == 1 && hit_dir_col == 0) b_mv.row = -1, b_mv.col = 0; 
-        }
-
-        //存储上次改变后的地址
-        if(info.ppos[uid].col != my_last_col || info.ppos[uid].row != my_last_row) {
-            my_last_col = info.ppos[uid].col;
-            my_last_row = info.ppos[uid].row;
-        }
-*/
-        
-        
         //printf("你输入的是 %c\n", ch);
         //send(clnt_sock, &ppos, sizeof(ppos), 0);
     }
@@ -212,9 +193,6 @@ int main() {
 
 	return 0;
 }
-
-
-
 
 /*
 int clear_row;
