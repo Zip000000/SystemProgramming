@@ -1,8 +1,8 @@
 /*************************************************************************
-	> File Name: 13.gameserver_v5.0.c
+	> File Name: 15.gameserver_v6.0.c
 	> Author: Zip 
 	> Mail: 307110017@qq.com 
-	> Created Time: 2019年06月23日 星期日 16时52分35秒
+	> Created Time: 2019年06月28日 星期五 20时53分04秒
  ************************************************************************/
 #include <stdio.h>
 #include <sys/socket.h>
@@ -22,6 +22,19 @@
 #define DOWNEDGE 37
 #define SHOOT_DIST 18
 
+#define UD_MID (UPEDGE/2+DOWNEDGE/2)
+#define LR_MID (LEFTEDGE/2+RIGHTEDGE/2)
+#define DOORWIDTH 12
+#define DOORDEEPTH 8
+#define LDOORLEFT (LEFTEDGE+2)
+#define LDOORRIGHT (LEFTEDGE+2+DOORDEEPTH)
+#define RDOORRIGHT (RIGHTEDGE-2)
+#define RDOORLEFT (RIGHTEDGE-2-DOORDEEPTH)
+#define DOORUP (UD_MID - (DOORWIDTH/2))
+#define DOORDOWN (UD_MID + (DOORWIDTH/2))
+
+
+int final_shooter_id;
 struct my_ballpos {
     int row;
     int col;
@@ -30,10 +43,24 @@ struct my_peoplepos {
     int row;
     int col;
 };
+
+struct name_and_camp{
+    char name[4];
+    int camp;
+    int score;
+};
+
+struct my_score {
+    struct name_and_camp nandc[MAX_USER_NUM];
+    int score[2];  //
+};
+
+
 struct my_info {
     struct my_ballpos bpos;
     struct my_peoplepos ppos[MAX_USER_NUM];
     int user_num;
+    struct my_score scr;
 };
 struct my_info info;
 
@@ -91,7 +118,7 @@ void *ballmove(void *arg) {
             info.bpos.col += b_mv.col;
             info.bpos.row += b_mv.row;
             ball_moved_route += 1;
-            printf("ball_move_route = %d\n", ball_moved_route);
+            //printf("ball_move_route = %d\n", ball_moved_route);
             if(ball_moved_route >= SHOOT_DIST) b_mv.col = 0, b_mv.row = 0;
         }
         if(b_mv.col == 0 && b_mv.row == 0) ball_moved_route = 0;
@@ -127,28 +154,55 @@ void* recv_opt(void* arg) {
             case 'w': 
                 if(info.ppos[user->user_id].row > UPEDGE)    info.ppos[user->user_id].row -= 1; break;
             case ' ':
-                printf("%d 号玩家射了 门！\n", uid);
+                //printf("%d 号玩家射了 门！\n", uid);
                 hit_dir_col = info.ppos[uid].col - info.bpos.col;
                 hit_dir_row = info.ppos[uid].row - info.bpos.row;
-            printf("col = %d , row = %d \n", hit_dir_col, hit_dir_row);
-                if(hit_dir_row == 0 && hit_dir_col == -1) {b_mv.row = 0, b_mv.col = 1;break;}   
-                if(hit_dir_row == -1 && hit_dir_col == 0) {b_mv.row = 1, b_mv.col = 0; break;} 
-                if(hit_dir_row == 0 && hit_dir_col == 1)  {b_mv.row = 0, b_mv.col = -1;break;}  
-                if(hit_dir_row == 1 && hit_dir_col == 0)  {b_mv.row = -1, b_mv.col = 0;break;}  
-                if(hit_dir_row == -1 && hit_dir_col == -1){b_mv.row = 1, b_mv.col = 1; break;} 
-                if(hit_dir_row == -1 && hit_dir_col == 1) {b_mv.row = 1, b_mv.col = -1;break;} 
-                if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 1;break;} 
-                if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -1;break;}
+                printf("col = %d , row = %d \n", hit_dir_col, hit_dir_row);
+                if(hit_dir_row == 0 && hit_dir_col == -1) {b_mv.row = 0, b_mv.col = 1;  final_shooter_id = uid; break;}   
+                if(hit_dir_row == -1 && hit_dir_col == 0) {b_mv.row = 1, b_mv.col = 0;  final_shooter_id = uid; break;} 
+                if(hit_dir_row == 0 && hit_dir_col == 1)  {b_mv.row = 0, b_mv.col = -1; final_shooter_id = uid; break;}  
+                if(hit_dir_row == 1 && hit_dir_col == 0)  {b_mv.row = -1, b_mv.col = 0; final_shooter_id = uid; break;}  
+                if(hit_dir_row == -1 && hit_dir_col == -1){b_mv.row = 1, b_mv.col = 1;  final_shooter_id = uid; break;} 
+                if(hit_dir_row == -1 && hit_dir_col == 1) {b_mv.row = 1, b_mv.col = -1; final_shooter_id = uid; break;} 
+                if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 1; final_shooter_id = uid; break;} 
+                if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -1;final_shooter_id = uid; break;}
         }
         //printf("你输入的是 %c\n", ch);
         //send(clnt_sock, &ppos, sizeof(ppos), 0);
     }
 }
+void *score_get(void *arg) {
+    int clnt_sock;
+    clnt_sock = *(int *)arg;
+    
+    while(1){
+        //进了左球门
+        int col = info.bpos.col;
+        int row = info.bpos.row;
 
-struct name_and_camp{
-    char name[4];
-    int camp;
-};
+        if(col > LDOORLEFT && col < LDOORRIGHT && row > DOORUP && row < DOORDOWN) {
+            printf("%d 号玩家 %s 射了！左门！\n", final_shooter_id, info.scr.nandc[final_shooter_id].name);
+        }
+        if(col > RDOORLEFT && col < RDOORRIGHT && row > DOORUP && row < DOORDOWN) {
+            printf("%d 号玩家 %s 射了！右门！\n", final_shooter_id, info.scr.nandc[final_shooter_id].name);
+        }
+        /*
+        if(info.bpos.col <)
+        if(info.bpos.col <= LEFTEDGE || info.bpos.col >= RIGHTEDGE) reset_ball();
+        if(info.bpos.row < UPEDGE || info.bpos.row > DOWNEDGE) reset_ball();
+        int times = 5;
+        if(b_mv.col != 0 || b_mv.row != 0) {
+            info.bpos.col += b_mv.col;
+            info.bpos.row += b_mv.row;
+            ball_moved_route += 1;
+            printf("ball_move_route = %d\n", ball_moved_route);
+            if(ball_moved_route >= SHOOT_DIST) b_mv.col = 0, b_mv.row = 0;
+        }
+        if(b_mv.col == 0 && b_mv.row == 0) ball_moved_route = 0;
+        */
+        usleep(20000);
+    }
+}
 
 int main() {
     info.bpos.row = (UPEDGE + DOWNEDGE) / 2;
@@ -165,15 +219,16 @@ int main() {
         user[c_uid].clnt_sock = accept(serv_sock, (struct sockaddr*)&user[c_uid].clnt_addr, &clnt_addr_size);
         printf("第 %d 个玩家连接成功！\n", c_uid);
         printf("正在接收昵称与阵营选择......\n");
-        struct name_and_camp nNc;
-        recv(user[c_uid].clnt_sock, &nNc, sizeof(nNc), 0);
+        struct name_and_camp *nNc;
+        nNc = &info.scr.nandc[c_uid];
+        recv(user[c_uid].clnt_sock, nNc, sizeof(struct name_and_camp), 0);
         char check_nNc = 'Y';
         send(user[c_uid].clnt_sock, &check_nNc, sizeof(check_nNc), 0);
-        printf("初始化个人信息，姓名： %s , 阵营 %d \n", nNc.name, nNc.camp);
+        printf("初始化个人信息，姓名： %s , 阵营 %d \n", nNc->name, nNc->camp);
         
         user[c_uid].user_id = c_uid;
         info.user_num = c_uid; //用户总人数
-        if(nNc.camp == 1) {
+        if(nNc->camp == 1) {
             info.ppos[c_uid].row = UPEDGE / 2 + DOWNEDGE / 2;
             info.ppos[c_uid].col = LEFTEDGE * 3 / 4 + RIGHTEDGE / 4;
         } else {
@@ -185,9 +240,11 @@ int main() {
 
         pthread_create(&user[c_uid].pthread_id[0], NULL, ballmove, &user[c_uid].clnt_sock);
         printf("ballmove is Ready!\n");
-        pthread_create(&user[c_uid].pthread_id[0], NULL, sendpos, &user[c_uid].clnt_sock);
+        pthread_create(&user[c_uid].pthread_id[1], NULL, sendpos, &user[c_uid].clnt_sock);
         printf("sendpos is Ready!\n");
-        pthread_create(&user[c_uid].pthread_id[1], NULL, recv_opt, &user[c_uid]);
+        pthread_create(&user[c_uid].pthread_id[2], NULL, recv_opt, &user[c_uid]);
+        printf("recv_opt is Ready!\b");
+        pthread_create(&user[c_uid].pthread_id[3], NULL, score_get, &user[c_uid].clnt_sock);
         printf("recv_opt is Ready!\b");
     }
 
