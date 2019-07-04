@@ -48,7 +48,7 @@ struct my_peoplepos {
 };
 
 struct name_and_camp{
-    char name[4];
+    char name[10];
     int camp;
     int score;
 };
@@ -116,6 +116,73 @@ void makemidline() {
         addstr(".");
     }
 }
+
+#define SCORE_WID 46
+#define SCORE_L (RIGHTEDGE + 4)
+#define SCORE_R (SCORE_L + SCORE_WID)
+#define SCORE_MID ((SCORE_L+SCORE_R)/2)
+
+void makescore_edge() {
+    for(int i = SCORE_L; i <= SCORE_R; i++) {
+        move(UPEDGE - 1, i);
+        addstr("*");
+        move(DOWNEDGE + 1, i);
+        addstr("*");
+        move(UPEDGE - 2, i);
+        addstr("-");
+        move(DOWNEDGE + 2, i);
+        addstr("-");
+    }
+    for(int j = UPEDGE - 1; j <= DOWNEDGE + 1; j++) {
+        move(j, SCORE_L);
+        addstr("*");
+        move(j, SCORE_R);
+        addstr("*");
+        move(j, SCORE_MID);
+        addstr(".");
+    }
+}
+
+void makescore() {
+    int c1_num = 0;
+    int c2_num = 0;
+    for(int i = 1; i <= info.user_num; i++) {
+        if(info.scr.nandc[i].camp == 1) {
+            move(UPEDGE + 5 + 2 * c1_num, SCORE_L + 2);
+            addstr(info.scr.nandc[i].name);
+            //move(UPEDGE + 4 + 2 * c1_num, (SCORE_L+SCORE_MID)/2 + 2);
+            //addstr("---");
+            move(UPEDGE + 5 + 2 * c1_num, (SCORE_L+SCORE_MID)/2 + 2);
+            char tmp_score[5];
+            sprintf(tmp_score, "%03d", info.scr.nandc[i].score);
+            addstr(tmp_score);
+            c1_num++;
+        }
+        if(info.scr.nandc[i].camp == 2) {
+            move(UPEDGE + 5 + 2 * c2_num, SCORE_MID + 2);
+            addstr(info.scr.nandc[i].name);
+            move(UPEDGE + 5 + 2 * c2_num, (SCORE_R+SCORE_MID)/2 + 2);
+            char tmp_score[5];
+            sprintf(tmp_score, "%03d", info.scr.nandc[i].score);
+            addstr(tmp_score);
+            c2_num++;
+        }
+    }
+    
+    char tmp_score[5];
+    move(UPEDGE + 2, SCORE_L + 2);
+    addstr("TEAM 1:");
+    move(UPEDGE + 2, (SCORE_L+SCORE_MID)/2 + 2);
+    sprintf(tmp_score, "%03d", info.scr.score[0]);
+    addstr(tmp_score);
+
+    move(UPEDGE + 2, SCORE_MID + 2);
+    addstr("TEAM 2:");
+    move(UPEDGE + 2, (SCORE_R+SCORE_MID)/2 + 2);
+    sprintf(tmp_score, "%03d", info.scr.score[1]);
+    addstr(tmp_score);
+
+}
 void makescreen() {
     initscr();
     clear();
@@ -140,7 +207,7 @@ void makescreen() {
     }
     makemidline();
     makedoor();
-
+    makescore_edge();
     refresh();
 }
 void draw() {
@@ -153,6 +220,7 @@ void draw() {
     addstr(ball);
     makedoor();
     makemidline();
+    makescore();
     move(LINES - 1, COLS - 1);
     refresh();
     //sleep(1);
@@ -212,6 +280,7 @@ int main(int argc, char* argv[]) {
     struct name_and_camp nNc;
     strcpy(nNc.name, argv[3]);
     nNc.camp = atoi(argv[4]);
+    nNc.score = 0;
     send(sock, &nNc, sizeof(nNc), 0);
     char check_nNc = 'N';
     while(check_nNc == 'N') {

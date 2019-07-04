@@ -45,7 +45,7 @@ struct my_peoplepos {
 };
 
 struct name_and_camp{
-    char name[4];
+    char name[10];
     int camp;
     int score;
 };
@@ -90,12 +90,11 @@ int get_serv_sock() {
     return serv_sock;
 }
 
-void *sendpos(void *arg) {
-    int clnt_sock;
-    clnt_sock = *(int *)arg;
-    while(1){
-        //printf("人物的坐标为 : %d %d \n", info.ppos[1].row, info.ppos[1].col);
-        send(clnt_sock, &info, sizeof(info), 0);
+void *sendpos() {
+    while(1) {
+        for(int i = 1; i <= info.user_num; i++) {
+            send(user[i].clnt_sock, &info, sizeof(info), 0);
+        }
         usleep(50000);
     }
 }
@@ -106,14 +105,13 @@ void reset_ball(){
     b_mv.row = 0;
     b_mv.col = 0;
 }
-void *ballmove(void *arg) {
-    int clnt_sock;
-    clnt_sock = *(int *)arg;
+void *ballmove() {
+    //int clnt_sock;
+    //clnt_sock = *(int *)arg;
     int ball_moved_route = 0;
     while(1){
         if(info.bpos.col <= LEFTEDGE || info.bpos.col >= RIGHTEDGE) reset_ball();
         if(info.bpos.row < UPEDGE || info.bpos.row > DOWNEDGE) reset_ball();
-        int times = 5;
         if(b_mv.col != 0 || b_mv.row != 0) {
             info.bpos.col += b_mv.col;
             info.bpos.row += b_mv.row;
@@ -124,6 +122,12 @@ void *ballmove(void *arg) {
         if(b_mv.col == 0 && b_mv.row == 0) ball_moved_route = 0;
         usleep(20000);
     }
+}
+
+void user_quit(int uid) {
+    info.ppos[uid].row = 0;
+    info.ppos[uid].col = 0;
+    strcpy(info.scr.nandc[uid].name, "****");
 }
 
 void* recv_opt(void* arg) {
@@ -166,15 +170,18 @@ void* recv_opt(void* arg) {
                 if(hit_dir_row == -1 && hit_dir_col == 1) {b_mv.row = 1, b_mv.col = -1; final_shooter_id = uid; break;} 
                 if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 1; final_shooter_id = uid; break;} 
                 if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -1;final_shooter_id = uid; break;}
+                break;
+            case 'q': 
+                close(clnt_sock);
+                printf("user %s quit the game!\n", info.scr.nandc[uid].name);
+                user_quit(uid);
+                return NULL;
         }
         //printf("你输入的是 %c\n", ch);
         //send(clnt_sock, &ppos, sizeof(ppos), 0);
     }
 }
-void *score_get(void *arg) {
-    int clnt_sock;
-    clnt_sock = *(int *)arg;
-    
+void *score_get() {
     while(1){
         //进了左球门
         int col = info.bpos.col;
@@ -182,24 +189,31 @@ void *score_get(void *arg) {
 
         if(col > LDOORLEFT && col < LDOORRIGHT && row > DOORUP && row < DOORDOWN) {
             printf("%d 号玩家 %s 射了！左门！\n", final_shooter_id, info.scr.nandc[final_shooter_id].name);
+            if(info.scr.nandc[final_shooter_id].camp == 2) {
+                info.scr.nandc[final_shooter_id].score += 10;
+                info.scr.score[1]+=10;
+            }
+            if(info.scr.nandc[final_shooter_id].camp == 1) {
+                info.scr.nandc[final_shooter_id].score -= 5;
+                info.scr.score[1] += 5;
+                info.scr.score[0] -= 5;
+            }
+            usleep(200000);
         }
         if(col > RDOORLEFT && col < RDOORRIGHT && row > DOORUP && row < DOORDOWN) {
             printf("%d 号玩家 %s 射了！右门！\n", final_shooter_id, info.scr.nandc[final_shooter_id].name);
+            if(info.scr.nandc[final_shooter_id].camp == 1) {
+                info.scr.nandc[final_shooter_id].score += 10;
+                info.scr.score[0]+=10;
+            }
+            if(info.scr.nandc[final_shooter_id].camp == 2) {
+                info.scr.nandc[final_shooter_id].score -= 5;
+                info.scr.score[0] += 5;
+                info.scr.score[1] -= 5;
+            }
+            usleep(200000);
         }
-        /*
-        if(info.bpos.col <)
-        if(info.bpos.col <= LEFTEDGE || info.bpos.col >= RIGHTEDGE) reset_ball();
-        if(info.bpos.row < UPEDGE || info.bpos.row > DOWNEDGE) reset_ball();
-        int times = 5;
-        if(b_mv.col != 0 || b_mv.row != 0) {
-            info.bpos.col += b_mv.col;
-            info.bpos.row += b_mv.row;
-            ball_moved_route += 1;
-            printf("ball_move_route = %d\n", ball_moved_route);
-            if(ball_moved_route >= SHOOT_DIST) b_mv.col = 0, b_mv.row = 0;
-        }
-        if(b_mv.col == 0 && b_mv.row == 0) ball_moved_route = 0;
-        */
+
         usleep(20000);
     }
 }
@@ -210,6 +224,13 @@ int main() {
 
 	int serv_sock = get_serv_sock();
     int c_uid = 0;
+    pthread_create(&user[c_uid].pthread_id[0], NULL, ballmove, NULL);
+    printf("ballmove is Ready!\n");
+    pthread_create(&user[c_uid].pthread_id[1], NULL, sendpos, NULL);
+    printf("sendpos is Ready!\n");
+    pthread_create(&user[c_uid].pthread_id[2], NULL, score_get, NULL);
+    printf("score_get is Ready!\b");
+
     while(1) {
         c_uid += 1;
         listen(serv_sock, 100);
@@ -237,58 +258,12 @@ int main() {
 
         }
         printf("玩家位置初始化成功\n");
+        info.scr.nandc[c_uid].score = 0;
 
-        pthread_create(&user[c_uid].pthread_id[0], NULL, ballmove, &user[c_uid].clnt_sock);
-        printf("ballmove is Ready!\n");
-        pthread_create(&user[c_uid].pthread_id[1], NULL, sendpos, &user[c_uid].clnt_sock);
-        printf("sendpos is Ready!\n");
-        pthread_create(&user[c_uid].pthread_id[2], NULL, recv_opt, &user[c_uid]);
-        printf("recv_opt is Ready!\b");
-        pthread_create(&user[c_uid].pthread_id[3], NULL, score_get, &user[c_uid].clnt_sock);
+        pthread_create(&user[c_uid].pthread_id[0], NULL, recv_opt, &user[c_uid]);
         printf("recv_opt is Ready!\b");
     }
 
 	return 0;
 }
-
-/*
-int clear_row;
-int clear_col;
-char ball[2] = "o";
-char blank[2] = " ";
-void draw(struct my_ballpos* ppos) {
-    move(ppos->row, ppos->col);
-    addstr(ball);
-    
-    move(LINES - 1, COLS - 1);
-    refresh();
-    //sleep(1);
-
-    move(clear_row, clear_col);
-    addstr(blank);
-    
-    clear_row = ppos->row;
-    clear_col = ppos->col;
-}
-void makescreen() {
-    initscr();
-    clear();
-    int x = LEFTEDGE - 1;
-    int y = UPEDGE - 1;
-    refresh();
-    for(int i = LEFTEDGE - 1; i <= RIGHTEDGE + 1; i++) {
-        move(UPEDGE - 1, i);
-        addstr("*");
-        move(DOWNEDGE + 1, i);
-        addstr("*");
-    }
-    for(int j = UPEDGE - 1; j <= DOWNEDGE + 1; j++) {
-        move(j, LEFTEDGE - 1);
-        addstr("*");
-        move(j, RIGHTEDGE + 1);
-        addstr("*");
-    }
-    refresh();
-}
-*/
 
