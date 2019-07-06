@@ -1,0 +1,6947 @@
+[my_id 1] pid = 10605
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 0  sum = 0 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 1  sum = 0 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 2  sum = 1 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 3  sum = 3 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 4  sum = 6 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 5  sum = 10 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 6  sum = 15 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 7  sum = 21 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 8  sum = 28 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 9  sum = 36 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 10  sum = 45 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 11  sum = 55 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 16  sum = 120 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 17  sum = 136 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 21  sum = 210 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 23  sum = 253 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 29  sum = 406 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 47  sum = 1081 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 65  sum = 2080 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 71  sum = 2485 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 77  sum = 2926 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 83  sum = 3403 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 89  sum = 3916 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 95  sum = 4465 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 125  sum = 7750 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 130  sum = 8385 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 137  sum = 9316 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 144  sum = 10296 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 149  sum = 11026 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 156  sum = 12090 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 166  sum = 13695 
+[No. 1] fopen1 success, ready to lock
+[No. 1]f[my_id 3] pid = 10607
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 18  sum = 153 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 20  sum = 190 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 25  sum = 300 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 28  sum = 352 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 33  sum = 498 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 36  sum = 630 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 38  sum = 703 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 41  sum = 820 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 46  sum = 1035 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 48  sum = 1128 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 52  sum = 1326 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 59  sum = 1711 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 66  sum = 2145 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 78  sum = 3003 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 90  sum = 4005 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 97  sum = 4656 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 105  sum = 5460 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 124  sum = 7626 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 131  sum = 8515 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 136  sum = 9180 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 142  sum = 10011 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 152  sum = 11476 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 161  sum = 12880 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 175  sum = 15225 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 183  sum = 16653 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 191  sum = 18145 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 198  sum = 19503 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 209  sum = 21736 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 212  sum = 22366 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 220  sum = 24090 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 231  sum = 26[my_id 5] pid = 10609
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 32  sum = 466 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 35  sum = 595 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 43  sum = 903 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 56  sum = 1540 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 63  sum = 1953 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 67  sum = 2211 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 74  sum = 2701 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 81  sum = 3240 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 88  sum = 3828 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 94  sum = 4371 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 100  sum = 4950 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 106  sum = 5565 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 111  sum = 6105 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 118  sum = 6903 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 128  sum = 8128 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 134  sum = 8911 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 141  sum = 9870 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 150  sum = 11175 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 157  sum = 12246 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 163  sum = 13203 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 171  sum = 14535 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 177  sum = 15576 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 184  sum = 16836 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 192  sum = 18336 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 199  sum = 19701 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 206  sum = 21115 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 213  sum = 22578 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 221  sum = 24310 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 228  sum = 25878 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 235  sum = 27495 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num =[my_id 4] pid = 10608
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 24  sum = 276 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 26  sum = 380 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 30  sum = 531 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 45  sum = 990 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 64  sum = 2016 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 69  sum = 2346 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 76  sum = 2850 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 82  sum = 3321 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 91  sum = 4095 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 98  sum = 4753 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 102  sum = 5151 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 108  sum = 5778 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 114  sum = 6441 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 119  sum = 7021 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 133  sum = 8778 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 143  sum = 10153 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 155  sum = 11935 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 162  sum = 13041 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 169  sum = 14196 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 178  sum = 15753 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 190  sum = 17955 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 195  sum = 18915 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 201  sum = 20100 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 208  sum = 21528 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 217  sum = 23436 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 223  sum = 24753 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 239  sum = 28441 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 246  sum = 30135 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 254  sum = 32131 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 260  sum = 33670 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num [my_id 7] pid = 10611
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 40  sum = 780 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 50  sum = 1225 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 55  sum = 1485 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 60  sum = 1770 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 70  sum = 2415 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 79  sum = 3081 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 86  sum = 3655 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 101  sum = 5050 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 112  sum = 6216 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 117  sum = 6786 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 123  sum = 7503 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 139  sum = 9591 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 147  sum = 10731 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 154  sum = 11781 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 164  sum = 13366 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 170  sum = 14365 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 176  sum = 15400 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 182  sum = 16471 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 188  sum = 17578 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 196  sum = 19110 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 202  sum = 20301 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 211  sum = 22155 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 218  sum = 23653 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 225  sum = 25200 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 233  sum = 27028 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 240  sum = 28680 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 247  sum = 30381 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 253  sum = 31878 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 259  sum = 33411 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 266  sum = 35245 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum cl[my_id 8] pid = 10612
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 44  sum = 946 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 54  sum = 1431 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 61  sum = 1830 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 68  sum = 2278 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 75  sum = 2775 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 84  sum = 3486 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 96  sum = 4560 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 103  sum = 5253 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 109  sum = 5886 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 115  sum = 6555 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 121  sum = 7260 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 127  sum = 8001 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 140  sum = 9730 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 148  sum = 10878 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 159  sum = 12561 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 165  sum = 13530 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 179  sum = 15931 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 187  sum = 17391 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 194  sum = 18721 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 200  sum = 19900 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 207  sum = 21321 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 215  sum = 23005 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 219  sum = 23871 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 226  sum = 25425 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 232  sum = 26796 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 242  sum = 29161 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 248  sum = 30628 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 255  sum = 32385 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 261  sum = 33930 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 269  sum = 36046 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum clo[my_id 6] pid = 10610
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 37  sum = 666 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 42  sum = 861 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 51  sum = 1275 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 62  sum = 1891 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 72  sum = 2556 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 80  sum = 3160 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 87  sum = 3741 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 93  sum = 4278 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 104  sum = 5356 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 110  sum = 5995 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 116  sum = 6670 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 122  sum = 7381 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 129  sum = 8256 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 135  sum = 9045 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 146  sum = 10585 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 153  sum = 11628 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 160  sum = 12720 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 167  sum = 13861 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 172  sum = 14706 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 285  sum = 40187 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 291  sum = 42487 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 304  sum = 46056 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 313  sum = 48828 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 319  sum = 50721 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 330  sum = 54285 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 337  sum = 56616 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 344  sum = 58996 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 350  sum = 61075 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 356  sum = 63190 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 364  sum = 66066 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closedpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 173  sum = 14878 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 181  sum = 16290 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 189  sum = 17766 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 197  sum = 19306 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 203  sum = 20503 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 214  sum = 22791 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 224  sum = 24976 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 230  sum = 26335 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 238  sum = 28203 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 245  sum = 29890 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 252  sum = 31626 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 262  sum = 34191 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 268  sum = 35778 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 277  sum = 38226 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 287  sum = 41041 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 295  sum = 43072 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 302  sum = 45451 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 308  sum = 47278 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 315  sum = 49455 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 321  sum = 51360 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 327  sum = 53301 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 333  sum = 55278 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 339  sum = 57291 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 345  sum = 59340 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 351  sum = 61425 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 357  sum = 63546 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 363  sum = 65703 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 371  sum = 68635 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 378  sum = 71253 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 386  sum = 74305 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 392  sum = 76636 
+[No. 1] fopen1 succ[my_id 9] pid = 10613
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 58  sum = 1653 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 73  sum = 2628 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 85  sum = 3570 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 92  sum = 4186 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 99  sum = 4851 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 107  sum = 5671 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 113  sum = 6328 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 120  sum = 7140 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 126  sum = 7875 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 132  sum = 8646 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 138  sum = 9453 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 145  sum = 10440 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 151  sum = 11325 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 158  sum = 12403 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 168  sum = 14028 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 174  sum = 15051 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 180  sum = 16110 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 186  sum = 17205 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 205  sum = 20910 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 286  sum = 40755 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 292  sum = 42195 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 360  sum = 64620 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 365  sum = 66430 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 373  sum = 69378 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 381  sum = 72390 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 387  sum = 74691 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 396  sum = 78210 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 403  sum = 81003 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 409  sum = 83436 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 415  sum = 85905 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnu[my_id 10] pid = 10614
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 185  sum = 17020 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 193  sum = 18528 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 204  sum = 20706 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 210  sum = 21945 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 222  sum = 24531 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 229  sum = 26106 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 237  sum = 27966 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 243  sum = 29403 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 250  sum = 31125 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 256  sum = 32640 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 265  sum = 34980 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 272  sum = 36856 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 278  sum = 38503 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 293  sum = 43367 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 306  sum = 46665 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 310  sum = 47895 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 318  sum = 50403 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 325  sum = 52650 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 331  sum = 54615 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 338  sum = 56953 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 347  sum = 60031 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 355  sum = 62835 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 385  sum = 73920 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 399  sum = 79401 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 407  sum = 82621 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 414  sum = 85491 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 423  sum = 89253 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 429  sum = 91806 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 452  sum = 101926 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10osed
+num = 275  sum = 37675 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 284  sum = 39903 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 289  sum = 41616 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 299  sum = 44551 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 309  sum = 47586 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 316  sum = 49770 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 323  sum = 52003 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 329  sum = 53956 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 335  sum = 55945 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 341  sum = 57970 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 349  sum = 60726 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 359  sum = 64261 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 362  sum = 65341 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 368  sum = 67528 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 372  sum = 69006 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 377  sum = 70876 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 390  sum = 75855 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 397  sum = 78606 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 402  sum = 80601 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 410  sum = 83845 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 417  sum = 86736 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 422  sum = 88831 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 432  sum = 93096 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 438  sum = 95703 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 446  sum = 99235 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 449  sum = 100576 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 456  sum = 103740 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 463  sum = 106953 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 469  sum = 109746 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 476  sum = 113050 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 483  sum = 116403 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]sec[my_id 2] pid = 10606
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 12  sum = 66 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 13  sum = 78 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 14  sum = 91 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 15  sum = 105 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 19  sum = 171 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 22  sum = 231 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 27  sum = 325 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 31  sum = 435 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 34  sum = 561 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 39  sum = 741 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 49  sum = 1176 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 53  sum = 1378 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 57  sum = 1596 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 216  sum = 23220 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 227  sum = 25651 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 236  sum = 27730 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 251  sum = 31375 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 267  sum = 35511 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 274  sum = 37401 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 282  sum = 39340 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 294  sum = 42778 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 300  sum = 44850 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 317  sum = 50086 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 324  sum = 52326 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 418  sum = 87153 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 425  sum = 90100 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 431  sum = 92665 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 437  sum = 95266 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 445  sum = 98790 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 492  sum = 120786 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 495  su 244  sum = 29646 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 258  sum = 33153 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 264  sum = 34716 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 271  sum = 36585 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 280  sum = 39060 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 290  sum = 41905 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 303  sum = 45753 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 311  sum = 48205 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 326  sum = 52975 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 332  sum = 54946 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 340  sum = 57630 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 346  sum = 59685 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 352  sum = 61776 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 358  sum = 63903 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 366  sum = 66795 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 374  sum = 69751 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 384  sum = 73536 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 391  sum = 76245 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 398  sum = 79003 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 405  sum = 81810 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 427  sum = 90951 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 436  sum = 94830 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 444  sum = 98346 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 457  sum = 104196 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 465  sum = 107880 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 471  sum = 110685 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 479  sum = 114481 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 486  sum = 117855 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 494  sum = 121771 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 497  sum = 123256 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 501  sum = 125250 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fope565 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 234  sum = 27261 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 241  sum = 28920 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 249  sum = 30876 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 257  sum = 32896 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 263  sum = 34453 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 270  sum = 36315 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 279  sum = 38781 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 288  sum = 41328 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 297  sum = 43956 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 369  sum = 67896 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 375  sum = 70125 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 383  sum = 73153 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 388  sum = 75078 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 393  sum = 77028 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 401  sum = 80200 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 412  sum = 84666 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 419  sum = 87571 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 433  sum = 93528 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 440  sum = 96580 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 451  sum = 101475 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 460  sum = 105570 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 467  sum = 108811 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 474  sum = 112101 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 481  sum = 115440 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 488  sum = 118828 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 496  sum = 122760 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 505  sum = 127260 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 513  sum = 131328 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 523  sum = 136503 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 532  sum = 141246 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[sed
+num = 281  sum = 39622 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 296  sum = 43660 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 307  sum = 46971 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 314  sum = 49141 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 322  sum = 51681 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 336  sum = 56280 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 343  sum = 58653 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 353  sum = 62128 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 361  sum = 64980 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 367  sum = 67161 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 380  sum = 72010 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 389  sum = 75466 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 404  sum = 81406 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 411  sum = 84255 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 420  sum = 87990 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 426  sum = 90525 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 434  sum = 93961 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 455  sum = 103285 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 464  sum = 107416 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 490  sum = 119805 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 515  sum = 132355 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 521  sum = 135460 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 528  sum = 139128 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 538  sum = 144453 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 545  sum = 148240 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 556  sum = 154290 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 563  sum = 158203 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 570  sum = 162165 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 577  sum = 166176 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 583  sum = 169653 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 589  sum = 173166 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[Noess, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 395  sum = 77815 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 408  sum = 83028 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 416  sum = 86320 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 424  sum = 89676 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 430  sum = 92235 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 439  sum = 96141 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 447  sum = 99681 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 454  sum = 102831 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 459  sum = 105111 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 468  sum = 109278 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 475  sum = 112575 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 482  sum = 115921 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 489  sum = 119316 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 502  sum = 125751 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 510  sum = 129795 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 519  sum = 134421 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 529  sum = 139656 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 535  sum = 142845 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 541  sum = 146070 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 547  sum = 149331 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 555  sum = 153735 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 561  sum = 157080 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 567  sum = 160461 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 573  sum = 163878 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 580  sum = 167910 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 586  sum = 171405 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 592  sum = 174936 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 603  sum = 181503 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 607  sum = 183921 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 616  sum = 189420 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum = 273  sum = 37128 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 276  sum = 37950 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 283  sum = 40472 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 298  sum = 44253 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 301  sum = 45150 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 305  sum = 46360 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 312  sum = 48516 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 320  sum = 51040 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 328  sum = 53628 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 334  sum = 55611 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 342  sum = 58311 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 348  sum = 60378 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 354  sum = 62481 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 370  sum = 68265 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 379  sum = 71631 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 382  sum = 72771 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 394  sum = 77421 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 400  sum = 79800 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 406  sum = 82215 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 413  sum = 85078 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 421  sum = 88410 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 428  sum = 91378 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 435  sum = 94395 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 441  sum = 97020 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 443  sum = 97461 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 448  sum = 100128 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 604  sum = 182106 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 613  sum = 187578 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 620  sum = 191890 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 627  sum = 196251 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 634  sum = 200661 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen]fpnum closed
+num = 458  sum = 104653 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 461  sum = 106030 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 472  sum = 111156 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 478  sum = 114003 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 485  sum = 117370 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 493  sum = 121278 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 503  sum = 126253 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 512  sum = 130816 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 518  sum = 133903 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 524  sum = 137026 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 530  sum = 140185 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 536  sum = 143380 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 543  sum = 147153 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 550  sum = 150975 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 554  sum = 153181 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 560  sum = 156520 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 571  sum = 162735 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 582  sum = 169071 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 591  sum = 174345 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 599  sum = 179101 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 605  sum = 182710 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 611  sum = 186355 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 617  sum = 190036 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 623  sum = 193753 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 629  sum = 197506 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 635  sum = 201295 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 643  sum = 206403 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 653  sum = 212878 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 659  sum = 216811 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 666  sum = 221445 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum loond fopen success
+[No. 7]fpnum closed
+num = 491  sum = 120295 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 504  sum = 126756 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 511  sum = 130305 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 517  sum = 133386 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 525  sum = 137550 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 531  sum = 140715 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 540  sum = 145530 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 548  sum = 149878 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 559  sum = 155961 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 575  sum = 165025 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 581  sum = 168490 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 587  sum = 171991 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 593  sum = 175528 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 600  sum = 179700 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 606  sum = 183315 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 612  sum = 186966 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 618  sum = 190653 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 628  sum = 196878 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 637  sum = 202566 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 645  sum = 207690 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 660  sum = 217470 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 667  sum = 222111 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 679  sum = 230181 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 685  sum = 234270 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 692  sum = 239086 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 698  sum = 243253 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 705  sum = 248160 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 712  sum = 253116 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 719  sum = 258121 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 733  sum = 268278 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 740  sum = 273430 
+[No. 7] fopenn success
+[No. 5]fpnum closed
+num = 507  sum = 128271 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 516  sum = 132870 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 526  sum = 138075 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 542  sum = 146611 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 549  sum = 150426 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 557  sum = 154846 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 565  sum = 159330 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 572  sum = 163306 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 578  sum = 166753 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 594  sum = 176121 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 596  sum = 177310 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 602  sum = 180901 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 609  sum = 185136 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 614  sum = 188191 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 619  sum = 191271 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 626  sum = 195625 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 632  sum = 199396 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 640  sum = 204480 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 642  sum = 205761 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 652  sum = 212226 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 663  sum = 219453 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 675  sum = 227475 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 682  sum = 232221 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 689  sum = 237016 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 697  sum = 242556 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 704  sum = 247456 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 710  sum = 251695 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 717  sum = 256686 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 727  sum = 263901 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 735  sum = 269745 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 745  sum = 277140 
+[No. 5] fopen1 succes
+num = 376  sum = 70500 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 453  sum = 102378 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 462  sum = 106491 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 470  sum = 110215 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 477  sum = 113526 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 484  sum = 116886 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 498  sum = 123753 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 508  sum = 128778 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 514  sum = 131841 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 520  sum = 134940 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 527  sum = 138601 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 534  sum = 142311 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 544  sum = 147696 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 552  sum = 152076 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 562  sum = 157641 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 568  sum = 161028 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 579  sum = 167331 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 585  sum = 170820 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 601  sum = 180300 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 608  sum = 184528 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 621  sum = 192510 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 633  sum = 200028 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 644  sum = 207046 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 734  sum = 269011 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 764  sum = 291466 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 771  sum = 296835 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 777  sum = 301476 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 787  sum = 309291 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 794  sum = 314821 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 807  sum = 325221 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 815  sum = 331705 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum No. 3]fpnum closed
+num = 537  sum = 143916 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 610  sum = 185745 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 622  sum = 193131 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 630  sum = 198135 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 638  sum = 203203 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 646  sum = 208335 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 651  sum = 211575 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 658  sum = 216153 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 665  sum = 220780 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 671  sum = 224785 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 678  sum = 229503 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 687  sum = 235641 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 693  sum = 239778 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 701  sum = 245350 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 708  sum = 250278 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 716  sum = 255970 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 725  sum = 262450 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 739  sum = 272691 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 747  sum = 278631 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 752  sum = 282376 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 757  sum = 286146 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 763  sum = 290703 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 768  sum = 294528 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 776  sum = 300700 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 782  sum = 305371 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 790  sum = 311655 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 798  sum = 318003 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 804  sum = 322806 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 813  sum = 330078 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 820  sum = 335790 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 828  sum = 342378 
+[No. 3] fopen1 success, ready to. 8]second fopen success
+[No. 8]fpnum closed
+num = 595  sum = 176715 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 615  sum = 188805 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 625  sum = 195000 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 631  sum = 198765 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 639  sum = 203841 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 649  sum = 210276 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 657  sum = 215496 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 664  sum = 220116 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 672  sum = 225456 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 674  sum = 226801 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 681  sum = 231540 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 688  sum = 236328 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 702  sum = 246051 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 713  sum = 253828 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 721  sum = 259560 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 728  sum = 264628 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 738  sum = 271953 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 748  sum = 279378 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 758  sum = 286903 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 765  sum = 292230 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 772  sum = 297606 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 779  sum = 303031 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 785  sum = 307720 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 793  sum = 314028 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 799  sum = 318801 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 819  sum = 334971 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 831  sum = 344865 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 838  sum = 350703 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 844  sum = 355746 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 855  sum = 365085 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 873  sum = 380628 
+[No. 8m = 122265 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 499  sum = 124251 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 509  sum = 129286 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 522  sum = 135981 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 533  sum = 141778 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 539  sum = 144991 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 546  sum = 148785 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 553  sum = 152628 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 566  sum = 159895 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 576  sum = 165600 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 588  sum = 172578 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 598  sum = 178503 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 743  sum = 275653 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 749  sum = 280126 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 754  sum = 283881 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 760  sum = 288420 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 769  sum = 295296 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 780  sum = 303810 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 786  sum = 308505 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 791  sum = 312445 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 800  sum = 319600 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 806  sum = 324415 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 811  sum = 328455 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 818  sum = 334153 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 826  sum = 340725 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 833  sum = 346528 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 839  sum = 351541 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 848  sum = 359128 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 854  sum = 364231 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 861  sum = 370230 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 868  sum = 376278 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[Noclosed
+num = 624  sum = 194376 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 636  sum = 201930 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 648  sum = 209628 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 655  sum = 214185 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 661  sum = 218130 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 668  sum = 222778 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 677  sum = 228826 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 684  sum = 233586 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 694  sum = 240471 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 700  sum = 244650 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 709  sum = 250986 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 715  sum = 255255 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 722  sum = 260281 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 729  sum = 265356 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 744  sum = 276396 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 767  sum = 293761 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 778  sum = 302253 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 784  sum = 306936 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 801  sum = 320400 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 808  sum = 326028 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 814  sum = 330891 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 821  sum = 336610 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 829  sum = 343206 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 837  sum = 349866 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 841  sum = 353220 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 850  sum = 360825 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 856  sum = 365940 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 863  sum = 371953 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 871  sum = 378885 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 878  sum = 385003 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 884  sum = 390286 
+[No. 1] fopen1 success, ready to lock
+[No. 1cked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 673  sum = 226128 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 691  sum = 238395 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 699  sum = 243951 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 707  sum = 249571 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 714  sum = 254541 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 720  sum = 258840 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 726  sum = 263175 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 732  sum = 267546 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 746  sum = 277885 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 751  sum = 281625 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 759  sum = 287661 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 766  sum = 292995 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 773  sum = 298378 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 788  sum = 310078 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 795  sum = 315615 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 802  sum = 321201 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 809  sum = 326836 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 817  sum = 333336 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 827  sum = 341551 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 835  sum = 348195 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 852  sum = 362526 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 859  sum = 368511 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 865  sum = 373680 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 874  sum = 381501 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 876  sum = 383250 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 882  sum = 388521 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 888  sum = 393828 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 897  sum = 401856 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 903  sum = 407253 
+[No. 10] fopen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10]second fopen success
+[No. 10]fpnum closed
+num = 909  sum = 412686 
+[No. 10] fo1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 753  sum = 283128 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 761  sum = 289180 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 770  sum = 296065 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 775  sum = 299925 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 783  sum = 306153 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 792  sum = 313236 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 796  sum = 316410 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 803  sum = 322003 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 810  sum = 327645 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 816  sum = 332520 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 823  sum = 338253 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 825  sum = 339900 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 832  sum = 345696 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 840  sum = 352380 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 851  sum = 361675 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 857  sum = 366796 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 864  sum = 372816 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 870  sum = 378015 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 881  sum = 387640 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 889  sum = 394716 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 896  sum = 400960 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 905  sum = 409060 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 911  sum = 414505 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 923  sum = 425503 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 929  sum = 431056 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 935  sum = 436645 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 941  sum = 442270 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 949  sum = 449826 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 957  sum = 457446 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 962  sum = 462241 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+s, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 756  sum = 285390 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 762  sum = 289941 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 774  sum = 299151 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 781  sum = 304590 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 789  sum = 310866 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 797  sum = 317206 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 805  sum = 323610 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 812  sum = 329266 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 822  sum = 337431 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 830  sum = 344035 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 836  sum = 349030 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 843  sum = 354903 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 853  sum = 363378 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 862  sum = 371091 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 869  sum = 377146 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 877  sum = 384126 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 885  sum = 391170 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 893  sum = 398278 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 904  sum = 408156 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 912  sum = 415416 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 918  sum = 420903 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 926  sum = 428275 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 936  sum = 437580 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 942  sum = 443211 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 948  sum = 448878 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 959  sum = 459361 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 965  sum = 465130 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 971  sum = 470935 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 976  sum = 475800 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 982  sum = 481671 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]f success
+[No. 4]fpnum closed
+num = 641  sum = 205120 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 650  sum = 210925 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 656  sum = 214840 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 662  sum = 218791 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 669  sum = 223446 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 676  sum = 228150 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 683  sum = 232903 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 690  sum = 237705 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 696  sum = 241860 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 703  sum = 246753 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 711  sum = 252405 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 718  sum = 257403 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 724  sum = 261726 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 730  sum = 266085 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 736  sum = 270480 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 742  sum = 274911 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 750  sum = 280875 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 755  sum = 284635 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 842  sum = 354061 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 913  sum = 416328 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 919  sum = 421821 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 924  sum = 426426 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 938  sum = 439453 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 944  sum = 445096 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 950  sum = 450775 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 956  sum = 456490 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 963  sum = 463203 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 977  sum = 476776 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 983  sum = 482653 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 989  sum = 488566 
+[No. 4] fopen1 success, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4]second fopen success
+[No. 4]fpnum closed
+num = 997  sum = 496506 
+[No. 4] fopen1 success]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 891  sum = 396495 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 900  sum = 404550 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 906  sum = 409965 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 914  sum = 417241 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 921  sum = 423660 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 931  sum = 432915 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 939  sum = 440391 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 946  sum = 446985 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 952  sum = 452676 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 958  sum = 458403 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 964  sum = 464166 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 970  sum = 469965 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 979  sum = 478731 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 985  sum = 484620 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1]second fopen success
+[No. 1]fpnum closed
+num = 991  sum = 490545 
+[No. 1] fopen1 success, ready to lock
+[No. 1]fpnum locked!!!
+[No. 1] OK!
+[my_id 10] pid = 0
+wait [9]  waitpid = -1 
+wait [8]  waitpid = -1 
+wait [7]  waitpid = -1 
+wait [6]  waitpid = -1 
+wait [5]  waitpid = -1 
+wait [4]  waitpid = -1 
+wait [3]  waitpid = -1 
+wait [2]  waitpid = -1 
+wait [1]  waitpid = -1 
+wait [0]  waitpid = -1 
+ans = 500500
+[No. 7]fpnum closed
+num = 974  sum = 473851 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 990  sum = 489555 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7]second fopen success
+[No. 7]fpnum closed
+num = 996  sum = 495510 
+[No. 7] fopen1 success, ready to lock
+[No. 7]fpnum locked!!!
+[No. 7] OK!
+locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 824  sum = 339076 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 834  sum = 347361 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 849  sum = 359976 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 860  sum = 369370 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 867  sum = 375411 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 879  sum = 385881 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 890  sum = 395605 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 892  sum = 397386 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 899  sum = 403651 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 907  sum = 410871 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 916  sum = 419070 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 922  sum = 424581 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 927  sum = 429201 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 933  sum = 434778 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 940  sum = 441330 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 951  sum = 451725 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6]second fopen success
+[No. 6]fpnum closed
+num = 969  sum = 468996 
+[No. 6] fopen1 success, ready to lock
+[No. 6]fpnum locked!!!
+[No. 6] OK!
+pen1 success, ready to lock
+[No. 10]fpnum locked!!!
+[No. 10] OK!
+, ready to lock
+[No. 4]fpnum locked!!!
+[No. 4] OK!
+ lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 845  sum = 356590 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 847  sum = 358281 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 858  sum = 367653 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 866  sum = 374545 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 872  sum = 379756 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 880  sum = 386760 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 887  sum = 392941 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 895  sum = 400065 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 901  sum = 405450 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 910  sum = 413595 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 917  sum = 419986 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 925  sum = 427350 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 932  sum = 433846 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 937  sum = 438516 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 943  sum = 444153 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 955  sum = 455535 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 961  sum = 461280 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 968  sum = 468028 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 978  sum = 477753 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 984  sum = 483636 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 992  sum = 491536 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3]second fopen success
+[No. 3]fpnum closed
+num = 998  sum = 497503 
+[No. 3] fopen1 success, ready to lock
+[No. 3]fpnum locked!!!
+[No. 3] OK!
+m closed
+num = 442  sum = 97904 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 450  sum = 101025 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 466  sum = 108345 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 473  sum = 111628 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 480  sum = 114960 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 487  sum = 118341 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 500  sum = 124750 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 506  sum = 127765 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 551  sum = 151525 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 558  sum = 155403 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 564  sum = 158766 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 569  sum = 161596 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 574  sum = 164451 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 584  sum = 170236 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 590  sum = 173755 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 597  sum = 177906 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 647  sum = 208981 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 654  sum = 213531 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 670  sum = 224115 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 680  sum = 230860 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 686  sum = 234955 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 695  sum = 241165 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 706  sum = 248865 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 723  sum = 261003 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 731  sum = 266815 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 737  sum = 271216 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 741  sum = 274170 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 846  sum = 357435 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 972  sum = 471906 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 981  sum = 480690 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 995  sum = 494515 
+[No. 9] fopen1 success, ready to lock
+[No. ] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 883  sum = 389403 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 898  sum = 402753 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 908  sum = 411778 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 915  sum = 418155 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 930  sum = 431985 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 945  sum = 446040 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 953  sum = 453628 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 967  sum = 467061 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 975  sum = 474825 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 987  sum = 486591 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 994  sum = 493521 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 999  sum = 498501 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 6  sum = 15 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 8  sum = 28 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 19  sum = 171 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 21  sum = 210 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 49  sum = 1176 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 74  sum = 2701 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 80  sum = 3160 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 89  sum = 3916 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 92  sum = 4186 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 94  sum = 4371 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 103  sum = 5253 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 113  sum = 6328 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 115  sum = 6555 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 130  sum = 8385 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 138  sum = 9453 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 148  sum = 10878 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 157  sum = 12246 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 159  sum = 12561 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 165  sum = 13530 
+. 2]second fopen success
+[No. 2]fpnum closed
+num = 875  sum = 382375 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 886  sum = 392055 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 894  sum = 399171 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 902  sum = 406351 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 920  sum = 422740 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 928  sum = 430128 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 934  sum = 435711 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 947  sum = 447931 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 954  sum = 454581 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 960  sum = 460320 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 966  sum = 466095 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 973  sum = 472878 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 980  sum = 479710 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 986  sum = 485605 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 993  sum = 492528 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 1000  sum = 499500 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 33  sum = 528 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 85  sum = 3570 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 99  sum = 4851 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 101  sum = 5050 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 123  sum = 7503 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 143  sum = 10153 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 155  sum = 11935 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 169  sum = 14196 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 173  sum = 14878 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 175  sum = 15225 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 177  sum = 15576 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 202  sum = 20301 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 208  sum = 21528 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 212  sum = 22366 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 228  sum = 25878 
+[No. 2] fopen1 success, ready[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 178  sum = 15753 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 185  sum = 17020 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 187  sum = 17391 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 189  sum = 17578 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 191  sum = 17957 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 221  sum = 24310 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 241  sum = 28920 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 243  sum = 29403 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 250  sum = 31125 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 253  sum = 31878 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 262  sum = 34191 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 269  sum = 36046 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 271  sum = 36585 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 273  sum = 37128 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 283  sum = 39621 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 285  sum = 40188 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 294  sum = 43071 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 307  sum = 46971 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 311  sum = 48205 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 314  sum = 49141 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 318  sum = 50403 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 320  sum = 51040 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 326  sum = 52975 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 339  sum = 57291 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 342  sum = 58311 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 344  sum = 58996 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 346  sum = 59685 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 349  sum = 60378 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 359  sum = 64261 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 362  sum = 65341 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum clospnum closed
+num = 988  sum = 487578 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 3  sum = 3 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 9  sum = 36 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 18  sum = 153 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 27  sum = 325 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 45  sum = 1083 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 54  sum = 1431 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 56  sum = 1540 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 112  sum = 6216 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 122  sum = 7381 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 156  sum = 12090 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 162  sum = 13041 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 179  sum = 15931 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 198  sum = 19503 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 200  sum = 19900 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 204  sum = 20706 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 206  sum = 21115 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 218  sum = 23653 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 224  sum = 24976 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 230  sum = 26335 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 236  sum = 27730 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 281  sum = 39340 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 299  sum = 44551 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 308  sum = 47278 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 317  sum = 50086 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 328  sum = 53628 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 335  sum = 55945 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 337  sum = 56616 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 363  sum = 65703 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 366  sum = 66795 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 375  sum = 70125 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 1  sum = 0 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 7  sum = 21 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 16  sum = 120 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 37  sum = 666 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 39  sum = 741 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 46  sum = 990 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 53  sum = 1378 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 59  sum = 1711 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 68  sum = 2278 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 70  sum = 2415 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 86  sum = 3655 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 88  sum = 3828 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 91  sum = 4095 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 95  sum = 4465 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 97  sum = 4656 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 104  sum = 5356 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 110  sum = 5995 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 117  sum = 6786 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 121  sum = 7260 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 131  sum = 8515 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 134  sum = 8911 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 151  sum = 11325 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 182  sum = 16471 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 203  sum = 20503 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 209  sum = 21736 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 223  sum = 24753 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 258  sum = 33153 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 329  sum = 53956 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 332  sum = 54946 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 341  sum = 57970 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 353  sum = 62128 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[N to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 231  sum = 26565 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 244  sum = 29646 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 247  sum = 30381 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 249  sum = 30876 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 256  sum = 32640 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 263  sum = 34453 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 268  sum = 35778 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 276  sum = 37950 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 287  sum = 41041 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 301  sum = 44850 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 303  sum = 45753 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 310  sum = 47895 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 321  sum = 51360 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 323  sum = 52003 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 350  sum = 60727 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 355  sum = 62835 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 358  sum = 63903 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 369  sum = 67896 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 371  sum = 68635 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 380  sum = 72010 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 424  sum = 89676 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 426  sum = 90525 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 429  sum = 91806 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 441  sum = 96580 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 445  sum = 98790 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 450  sum = 100577 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 460  sum = 105570 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 462  sum = 108349 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 470  sum = 109748 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 481  sum = 114495 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 489  sum = 11885]fpnum closed
+num = 382  sum = 72771 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 388  sum = 75078 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 394  sum = 77421 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 399  sum = 79401 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 411  sum = 84255 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 416  sum = 86320 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 427  sum = 90951 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 459  sum = 105111 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 464  sum = 106954 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 473  sum = 111161 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 479  sum = 113536 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 493  sum = 121278 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 495  sum = 122265 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 500  sum = 124750 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 504  sum = 126756 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 527  sum = 138601 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 529  sum = 139656 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 533  sum = 141778 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 543  sum = 147153 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 545  sum = 148240 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 549  sum = 150426 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 563  sum = 158203 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 573  sum = 163878 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 579  sum = 167331 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 581  sum = 168490 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 588  sum = 172578 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 595  sum = 176715 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 601  sum = 180300 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 612  sum = 186966 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 615  sum = 188805 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 617  sum = 190036 
+[No. 5] fopen1 success, ready to lock
+[No. ed
+num = 367  sum = 67161 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 376  sum = 70500 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 428  sum = 91378 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 435  sum = 94395 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 454  sum = 102831 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 465  sum = 107418 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 467  sum = 120319 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 501  sum = 125250 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 505  sum = 127260 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 512  sum = 130816 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 523  sum = 136503 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 532  sum = 141246 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 559  sum = 155961 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 567  sum = 160461 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 576  sum = 165600 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 578  sum = 166753 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 586  sum = 171405 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 605  sum = 182710 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 639  sum = 203841 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 661  sum = 218130 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 672  sum = 225456 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 675  sum = 227475 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 677  sum = 228826 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 685  sum = 234270 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 687  sum = 235641 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 696  sum = 241860 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 705  sum = 248160 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 714  sum = 255256 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 721  sum = 259560 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 731  sum = 266815 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 733  sum = 268278 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum l49 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 516  sum = 132870 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 530  sum = 140185 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 546  sum = 148785 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 551  sum = 150975 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 555  sum = 153735 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 561  sum = 157080 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 590  sum = 173755 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 603  sum = 181503 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 609  sum = 185136 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 611  sum = 186355 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 619  sum = 191271 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 621  sum = 192510 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 635  sum = 201295 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 637  sum = 202566 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 651  sum = 211575 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 653  sum = 212878 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 679  sum = 230181 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 699  sum = 243951 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 701  sum = 245350 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 709  sum = 250986 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 711  sum = 252405 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 715  sum = 254541 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 728  sum = 264628 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 730  sum = 266085 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 736  sum = 270480 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 743  sum = 275653 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 751  sum = 281625 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 753  sum = 283128 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 770  sum = 296065 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 776  sum = 300700 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]secoo. 9]second fopen success
+[No. 9]fpnum closed
+num = 384  sum = 73536 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 395  sum = 77815 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 401  sum = 80200 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 403  sum = 81003 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 409  sum = 83028 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 447  sum = 99681 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 449  sum = 100128 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 453  sum = 102378 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 474  sum = 111634 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 477  sum = 113059 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 503  sum = 126253 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 510  sum = 129795 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 514  sum = 131841 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 519  sum = 134421 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 522  sum = 135981 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 539  sum = 144991 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 553  sum = 152078 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 565  sum = 159330 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 622  sum = 193131 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 666  sum = 221445 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 673  sum = 226128 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 688  sum = 236328 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 697  sum = 242556 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 708  sum = 250278 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 718  sum = 257403 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 737  sum = 271216 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 748  sum = 279378 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 758  sum = 286903 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 767  sum = 293761 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 808  sum = 326028 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 817  sum = 333336 
+[No. 9] fop5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 623  sum = 193753 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 625  sum = 195000 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 643  sum = 206403 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 665  sum = 220780 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 674  sum = 226801 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 689  sum = 237016 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 691  sum = 237705 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 706  sum = 248865 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 713  sum = 253828 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 738  sum = 271953 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 747  sum = 278631 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 757  sum = 286146 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 763  sum = 290703 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 765  sum = 292230 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 779  sum = 303031 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 787  sum = 309291 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 794  sum = 314821 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 804  sum = 322806 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 811  sum = 328455 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 813  sum = 330078 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 847  sum = 358281 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 856  sum = 365940 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 858  sum = 366796 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 870  sum = 378015 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 878  sum = 385003 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 894  sum = 399171 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 901  sum = 405450 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 906  sum = 409965 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 914  sum = 417241 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 916  sum = 418155 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 919 en1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 825  sum = 339900 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 836  sum = 349030 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 839  sum = 351541 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 855  sum = 365085 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 863  sum = 371953 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 865  sum = 373680 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 909  sum = 412686 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 911  sum = 414505 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 949  sum = 449826 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 951  sum = 451725 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 967  sum = 467061 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9]second fopen success
+[No. 9]fpnum closed
+num = 969  sum = 468996 
+[No. 9] fopen1 success, ready to lock
+[No. 9]fpnum locked!!!
+[No. 9] OK!
+ocked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 749  sum = 280126 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 769  sum = 295296 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 771  sum = 296835 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 773  sum = 298378 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 775  sum = 299925 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 780  sum = 303810 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 788  sum = 310078 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 793  sum = 314028 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 795  sum = 315615 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 797  sum = 317206 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 805  sum = 323610 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 815  sum = 331705 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 821  sum = 336610 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 828  sum = 342378 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 830  sum = 344035 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 854  sum = 364231 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 859  sum = 368511 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 862  sum = 371091 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 871  sum = 378885 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 873  sum = 380628 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 899  sum = 403651 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 917  sum = 419071 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 925  sum = 427350 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 931  sum = 432915 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 939  sum = 440391 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 959  sum = 459361 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 966  sum = 466095 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 971  sum = 470935 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 985  sum = 484620 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8]second fopen success
+[No. 8]fpnum closed
+num = 993  sum = 492528 
+[No. 8] fopen1 success, ready to lock
+[No. 8]fpnum locked!!!
+[No. 8] OK!
+ sum = 419988 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 922  sum = 423663 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 962  sum = 462241 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 965  sum = 465130 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 974  sum = 473851 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5]second fopen success
+[No. 5]fpnum closed
+num = 981  sum = 480690 
+[No. 5] fopen1 success, ready to lock
+[No. 5]fpnum locked!!!
+[No. 5] OK!
+nd fopen success
+[No. 2]fpnum closed
+num = 778  sum = 302253 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 816  sum = 332520 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 822  sum = 337431 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 841  sum = 353220 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 844  sum = 355746 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 849  sum = 359976 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 867  sum = 375411 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 874  sum = 381501 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 881  sum = 386760 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 889  sum = 394716 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 902  sum = 406351 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 904  sum = 408156 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 913  sum = 416328 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 920  sum = 420907 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 924  sum = 426426 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 945  sum = 446040 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 954  sum = 454581 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 957  sum = 457446 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 987  sum = 486591 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 992  sum = 491536 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2]second fopen success
+[No. 2]fpnum closed
+num = 999  sum = 498501 
+[No. 2] fopen1 success, ready to lock
+[No. 2]fpnum locked!!!
+[No. 2] OK!
