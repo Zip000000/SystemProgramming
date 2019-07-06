@@ -20,21 +20,22 @@
 #include <sys/wait.h>
 #include <sys/file.h>
 
-
-void get_num(FILE *fp, int *num) {
+#define MAX 10000
+#define PRONUM 20
+void get_num(FILE *fp, long long *num) {
     *num = 0;
     size_t len = 0;
     char *buf;
     getline(&buf, &len, fp);
-    *num = atoi(buf);
+    *num = atoll(buf);
 }
 
-void set_num(FILE *fp, int num) {
-    fprintf(fp, "%d", num);
+void set_num(FILE *fp, long long num) {
+    fprintf(fp, "%lld", num);
 }
 
 int main() {
-    int num;
+    long long num;
     char fnumname[] = "tmpnum";
     char fsumname[] = "tmpsum";
     FILE *initfps = fopen(fsumname, "w");
@@ -46,7 +47,7 @@ int main() {
 
     pid_t pid = 1;
     int my_id = 0;
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < PRONUM; i++) {
         if(pid != 0) {
             my_id++;
             pid = fork();
@@ -54,59 +55,56 @@ int main() {
             break;
         }
     }
-    if(pid != 0) printf("[my_id %d] pid = %d\n", my_id, pid);
+    //if(pid != 0) printf("[my_id %d] pid = %d\n", my_id, pid);
 
     if(pid != 0) {
         //sleep(5);
-        int n = 10;
+        int n = PRONUM;
         while(n--) {
             int waitid = waitpid(-1, NULL, 0);
             printf("wait [%d]  waitpid = %d \n", n, waitid);
             if(waitid == -1) perror("waitpi()");
         }
-        int ans;
+        long long ans;
         FILE *fpans = fopen(fsumname, "r");
         get_num(fpans, &ans);
         fclose(fpans);
-        printf("ans = %d\n", ans);
+        printf("ans = %lld\n", ans);
     }
     
     
     if(pid == 0) {
-        printf("HI im %d cpid!\n", my_id);
+        //printf("HI im %d cpid!\n", my_id);
 
         while(1) {
-            int num = 0;
+            long long num = 0;
             FILE *fpnum = fopen(fnumname, "r+");
-            printf("[No. %d] fopen1 success, ready to lock\n",my_id);
+            //printf("[No. %d] fopen1 success, ready to lock\n",my_id);
             flock(fpnum->_fileno, LOCK_EX);
-            printf("[No. %d]fpnum locked!!!\n",my_id);
+            //printf("[No. %d]fpnum locked!!!\n",my_id);
             get_num(fpnum, &num);
-            if(num > 1000) {
+            if(num > MAX) {
                 fclose(fpnum);
                 break;
             }
-            //fclose(fpnum);
-            //fpnum = fopen(fnumname, "w");
-            printf("[No. %d]second fopen success\n", my_id);
+            //printf("[No. %d]second fopen success\n", my_id);
             fseek(fpnum, 0, SEEK_SET);
             set_num(fpnum, num + 1);
             fclose(fpnum);
-            printf("[No. %d]fpnum closed\n", my_id);
+            //printf("[No. %d]fpnum closed\n", my_id);
 
             
-            int sum = 0;
+            long long sum = 0;
             FILE *fpsum = fopen(fsumname, "r+");
             flock(fpsum->_fileno, LOCK_EX);
             get_num(fpsum, &sum);
-            //fclose(fpsum);
-            //fpsum = fopen(fsumname, "w");
+
             fseek(fpsum,0,SEEK_SET);
-            printf("num = %d  sum = %d \n", num, sum);
+            //printf("num = %d  sum = %d \n", num, sum);
             set_num(fpsum, sum+num);
             fclose(fpsum);
         }
-        printf("[No. %d] OK!\n", my_id);
+        //printf("[No. %d] OK!\n", my_id);
 
         exit(0);
     }
