@@ -106,16 +106,17 @@ handle_events(int epollfd,struct epoll_event *events,int num,int listenfd,char *
     int i;
     int fd;
     //进行选好遍历
-    for (i = 0;i < num;i++)
-    {
+    for (i = 0;i < num;i++) {
         fd = events[i].data.fd;
         //根据描述符的类型和事件类型进行处理
-        if ((fd == listenfd) &&(events[i].events & EPOLLIN))
+        if ((fd == listenfd) &&(events[i].events & EPOLLIN)){
             handle_accpet(epollfd,listenfd);
-        else if (events[i].events & EPOLLIN)
+        } else if (events[i].events & EPOLLIN){
             do_read(epollfd,fd,buf);
-        else if (events[i].events & EPOLLOUT)
             do_write(epollfd,fd,buf);
+        } else if (events[i].events & EPOLLOUT)
+            //do_write(epollfd,fd,buf);
+            printf("可写%d\n", i);
     }
 }
 static void handle_accpet(int epollfd,int listenfd)
