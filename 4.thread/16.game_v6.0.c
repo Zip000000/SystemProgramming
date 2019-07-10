@@ -14,8 +14,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 #define MAX_USER_NUM 20
-#define LEFTEDGE 10
-#define RIGHTEDGE 150
+#define LEFTEDGE 6
+#define RIGHTEDGE 146
 #define UPEDGE 2
 #define DOWNEDGE 37
 
@@ -117,7 +117,7 @@ void makemidline() {
     }
 }
 
-#define SCORE_WID 46
+#define SCORE_WID 36
 #define SCORE_L (RIGHTEDGE + 4)
 #define SCORE_R (SCORE_L + SCORE_WID)
 #define SCORE_MID ((SCORE_L+SCORE_R)/2)

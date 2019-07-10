@@ -16,16 +16,16 @@
 #include <curses.h>
 #include <unistd.h>
 #define MAX_USER_NUM 20
-#define LEFTEDGE 10
-#define RIGHTEDGE 150
+#define LEFTEDGE 6
+#define RIGHTEDGE 146
 #define UPEDGE 2
 #define DOWNEDGE 37
-#define SHOOT_DIST 18
 
 #define UD_MID (UPEDGE/2+DOWNEDGE/2)
 #define LR_MID (LEFTEDGE/2+RIGHTEDGE/2)
 #define DOORWIDTH 12
 #define DOORDEEPTH 8
+
 #define LDOORLEFT (LEFTEDGE+2)
 #define LDOORRIGHT (LEFTEDGE+2+DOORDEEPTH)
 #define RDOORRIGHT (RIGHTEDGE-2)
@@ -33,6 +33,7 @@
 #define DOORUP (UD_MID - (DOORWIDTH/2))
 #define DOORDOWN (UD_MID + (DOORWIDTH/2))
 
+#define SHOOT_DIST 18
 
 int final_shooter_id;
 struct my_ballpos {
