@@ -38,7 +38,8 @@ int get_listen_socket() {
     memset(&my_addr, 0, sizeof(my_addr));
     my_addr.sin_family = AF_INET;
     my_addr.sin_port = htons(PORT);
-    my_addr.sin_addr.s_addr = inet_addr(IPADDRESS);
+    //my_addr.sin_addr.s_addr = inet_addr(IPADDRESS);
+    my_addr.sin_addr.s_addr = htonl(INADDR_ANY);
     if (bind(listen_socket, (struct sockaddr *)&my_addr, sizeof(my_addr)) < 0) {
         perror("bind");
         return -1;
@@ -58,7 +59,7 @@ int  accept_clnt(int listen_socket) {
         return -1;
     }
     getpeername(clnt_socket, (struct sockaddr *)&client_addr, &len);
-    printf("<%s> : Login\n",inet_ntoa(client_addr.sin_addr));
+    printf("<%s> : Login    fd = %d \n",inet_ntoa(client_addr.sin_addr), clnt_socket);
     return clnt_socket;
 }
 
@@ -84,7 +85,7 @@ int do_write(int epfd, int fd, char *buf) {
         perror("write");
         return -1;
     } else {
-        //memset(buf, 0, MAX_BUF_SIZE);
+        memset(buf, 0, MAX_BUF_SIZE);
         printf("反弹成功！\n");
         return 0;
     }
@@ -106,30 +107,31 @@ int main() {
     info[info_cnt].fd = listen_socket;
     ev.events = EPOLLIN;
     //ev.data.fd = listen_socket;
-    ev.data.ptr = &(info[info_cnt].fd);
+    ev.data.ptr = &(info[info_cnt]);
     if(epoll_ctl(epfd, EPOLL_CTL_ADD, listen_socket, &ev) == -1) {
         perror("epoll_ctl");
         exit(1);
     }
-    char buf[MAX_BUF_SIZE] = {0};
     int w_cnt = 0;
     while(1) {
         w_cnt++;
         int nfds = epoll_wait(epfd, events, MAX_EVENTS, -1);
+        printf("epollwait over");
         if(nfds == -1) {
             perror("epoll_wait");
             exit(1);
         }
         int f_cnt = 0;
         for(int i = 0; i < nfds; i++) {
-            int now_fd = *((int *)events[i].data.ptr);
+            int now_fd = ((struct info *)events[i].data.ptr)->fd;
+            printf("收到信号！ fd = %d \n", now_fd);
             printf("w_cnt = %d  f_cnt = %d\n", w_cnt, f_cnt);
             if(now_fd == listen_socket) {
                 clnt_socket = accept_clnt(listen_socket);
                 info_cnt++;
                 info[info_cnt].fd = clnt_socket;
                 ev.events = EPOLLIN;
-                ev.data.fd = clnt_socket;
+                ev.data.ptr = &(info[info_cnt]);
                 if(epoll_ctl(epfd, EPOLL_CTL_ADD, clnt_socket, &ev) == -1 ) {
                     perror("epoll_ctl");
                     exit(1);
@@ -138,13 +140,13 @@ int main() {
                 char *now_buf = ((struct info *)(events[i].data.ptr))->buf;
                 if(do_read(epfd, now_fd, now_buf) < 0) continue;
                 ev.events = EPOLLOUT;
-                ev.data.ptr = &now_fd;
+                ev.data.ptr = events[i].data.ptr;
                 epoll_ctl(epfd, EPOLL_CTL_MOD, now_fd, &ev);
             } else if(events[i].events & EPOLLOUT) {
                 char *now_buf = ((struct info *)(events[i].data.ptr))->buf;
                 if(do_write(epfd, now_fd, now_buf) < 0) continue;
                 ev.events = EPOLLIN;
-                ev.data.ptr = &now_fd;
+                ev.data.ptr = events[i].data.ptr;
                 epoll_ctl(epfd, EPOLL_CTL_MOD, now_fd, &ev);
             }
         }
