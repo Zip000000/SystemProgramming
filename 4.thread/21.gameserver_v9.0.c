@@ -146,7 +146,6 @@ void reset_ball(){
     b_mv.row = 0;
     b_mv.col = 0;
 }
-/*
 void check_score() {
         int col = info.bpos.col;
         int row = info.bpos.row;
@@ -178,14 +177,13 @@ void check_score() {
         }
     return;
 }
-*/
 
 struct itimerval new_v;
 void ball_move_handle(int n) {
     int ball_move_flag = 0;
     if(info.bpos.col <= LEFTEDGE || info.bpos.col >= RIGHTEDGE) ball_move_flag = 1;
     if(info.bpos.row < UPEDGE || info.bpos.row > DOWNEDGE) ball_move_flag = 1;
-    if (new_v.it_value.tv_usec >= 110000 || ball_move_flag == 1) {
+    if (new_v.it_value.tv_usec >= 240000 || ball_move_flag == 1) {
         if(ball_move_flag == 1) reset_ball();
         b_mv.col = 0, b_mv.row = 0;
         printf("足球停止\n");
@@ -196,10 +194,10 @@ void ball_move_handle(int n) {
     info.bpos.row += b_mv.row;
     getready_send();
 
-    //check_score();
+    check_score();
     
     new_v.it_value.tv_sec = 0;
-    new_v.it_value.tv_usec += 10000;
+    new_v.it_value.tv_usec += 14000;
     new_v.it_interval.tv_sec = 0;
     new_v.it_interval.tv_usec = 0;
     setitimer(ITIMER_REAL, &new_v, NULL);
@@ -211,7 +209,7 @@ void ballmove() {
         if(info.bpos.row < UPEDGE || info.bpos.row > DOWNEDGE) reset_ball();
         if(b_mv.col != 0 || b_mv.row != 0) {
             new_v.it_value.tv_sec = 0;
-            new_v.it_value.tv_usec = 1000;
+            new_v.it_value.tv_usec = 20000;
             new_v.it_interval.tv_sec = 0;
             new_v.it_interval.tv_usec = 0;
             
@@ -262,14 +260,14 @@ int recv_opt(void* arg) {
                 hit_dir_row = info.ppos[uid].row - info.bpos.row;
                 printf("col = %d , row = %d \n", hit_dir_col, hit_dir_row);
             #define STEP_LENGTH 2
-                if(hit_dir_row == 0 && hit_dir_col == -1) {b_mv.row = 0, b_mv.col = 2;  final_shooter_id = uid; ballmove(); break;}   
+                if(hit_dir_row == 0 && hit_dir_col == -1) {b_mv.row = 0, b_mv.col = 1;  final_shooter_id = uid; ballmove(); break;}   
                 if(hit_dir_row == -1 && hit_dir_col == 0) {b_mv.row = 1, b_mv.col = 0;  final_shooter_id = uid; ballmove(); break;} 
-                if(hit_dir_row == 0 && hit_dir_col == 1)  {b_mv.row = 0, b_mv.col = -2; final_shooter_id = uid; ballmove(); break;}  
+                if(hit_dir_row == 0 && hit_dir_col == 1)  {b_mv.row = 0, b_mv.col = -1; final_shooter_id = uid; ballmove(); break;}  
                 if(hit_dir_row == 1 && hit_dir_col == 0)  {b_mv.row = -1, b_mv.col = 0; final_shooter_id = uid; ballmove(); break;}  
-                if(hit_dir_row == -1 && hit_dir_col == -1){b_mv.row = 1, b_mv.col = 2;  final_shooter_id = uid; ballmove(); break;} 
-                if(hit_dir_row == -1 && hit_dir_col == 1) {b_mv.row = 1, b_mv.col = -2; final_shooter_id = uid; ballmove(); break;} 
-                if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 2; final_shooter_id = uid; ballmove(); break;} 
-                if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -2;final_shooter_id = uid; ballmove(); break;}
+                if(hit_dir_row == -1 && hit_dir_col == -1){b_mv.row = 1, b_mv.col = 1;  final_shooter_id = uid; ballmove(); break;} 
+                if(hit_dir_row == -1 && hit_dir_col == 1) {b_mv.row = 1, b_mv.col = -1; final_shooter_id = uid; ballmove(); break;} 
+                if(hit_dir_row == 1 && hit_dir_col == -1) {b_mv.row = -1, b_mv.col = 1; final_shooter_id = uid; ballmove(); break;} 
+                if(hit_dir_row == 1 && hit_dir_col == 1)  {b_mv.row = -1, b_mv.col = -1;final_shooter_id = uid; ballmove(); break;}
                 break;
             case 'q': 
                 printf("user %s 按q 主动退出了游戏!\n", info.scr.nandc[uid].name);
@@ -278,7 +276,13 @@ int recv_opt(void* arg) {
     return 0;
 }
 
+void *score_get() {
+    while(1) {
+        sleep(200000);
+    }
+}
 
+/*
 void *score_get() {
     while(1){
         //进了左球门
@@ -317,7 +321,7 @@ void *score_get() {
         usleep(20000);
     }
 }
-
+*/
 void user_info_init(int c_uid) {
     struct name_and_camp *nNc;
     nNc = &info.scr.nandc[c_uid];
