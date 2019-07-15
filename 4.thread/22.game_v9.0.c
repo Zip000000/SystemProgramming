@@ -19,9 +19,9 @@
 #define EVENTS_MAX 5
 #define MAX_USER_NUM 1000
 #define LEFTEDGE 6
-#define RIGHTEDGE 146
+#define RIGHTEDGE 126
 #define UPEDGE 2
-#define DOWNEDGE 37
+#define DOWNEDGE 32
 
 #define UD_MID (UPEDGE/2+DOWNEDGE/2)
 #define LR_MID (LEFTEDGE/2+RIGHTEDGE/2)

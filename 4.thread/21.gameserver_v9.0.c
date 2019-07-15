@@ -21,9 +21,11 @@
 
 #define MAX_USER_NUM 1000
 #define LEFTEDGE 6
-#define RIGHTEDGE 146
+#define RIGHTEDGE 126
 #define UPEDGE 2
-#define DOWNEDGE 37
+#define DOWNEDGE 32
+
+//6 146 2 37
 
 #define UD_MID (UPEDGE/2+DOWNEDGE/2)
 #define LR_MID (LEFTEDGE/2+RIGHTEDGE/2)
@@ -122,7 +124,8 @@ int get_serv_sock() {
     struct sockaddr_in sock_addr;
     memset(&sock_addr, 0, sizeof(sock_addr));
     sock_addr.sin_family = AF_INET;
-    sock_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+    //sock_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+    sock_addr.sin_addr.s_addr = htons(INADDR_ANY); 
     sock_addr.sin_port = htons(8888);
     bind(serv_sock, (struct sockaddr* )&sock_addr, sizeof(sock_addr));
     return serv_sock;
@@ -331,11 +334,11 @@ void user_info_init(int c_uid) {
     printf("初始化个人信息，姓名： %s , 阵营 %d \n", nNc->name, nNc->camp);
 
     if(nNc->camp == 1) {
-        info.ppos[c_uid].row = UPEDGE / 2 + DOWNEDGE / 2;
-        info.ppos[c_uid].col = LEFTEDGE * 3 / 4 + RIGHTEDGE / 4;
+        info.ppos[c_uid].row = (UPEDGE + DOWNEDGE) / 2;
+        info.ppos[c_uid].col = (LR_MID + LEFTEDGE) / 2;
     } else {
-        info.ppos[c_uid].row = UPEDGE / 2 + DOWNEDGE / 2;
-        info.ppos[c_uid].col = LEFTEDGE / 4 + RIGHTEDGE * 3 / 4;
+        info.ppos[c_uid].row = (UPEDGE + DOWNEDGE) / 2;
+        info.ppos[c_uid].col = (LR_MID + RIGHTEDGE) / 2;
     }
     info.scr.nandc[c_uid].score = 0;
     printf("玩家位置初始化成功\n");
