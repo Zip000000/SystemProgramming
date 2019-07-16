@@ -209,7 +209,9 @@ void draw() {
     for(int i = 1; i <= info.user_num; i++) {
         if(i == my_userid) standout();
         move(info.ppos[i].row, info.ppos[i].col);
+
         //printf("row = %d col = %d\n", info.ppos[i].row, info.ppos[i].col);
+        
         addstr(people);
         if(i == my_userid) standend();
     }
@@ -297,7 +299,10 @@ int main(int argc, char* argv[]) {
                 send(sock, &ch, sizeof(ch), 0);
                 
             } else if(events[i].events & EPOLLIN){
+                //printf("接受info \n");
                 int ret_recv = recv(sock, &info, sizeof(info), 0);
+                //printf("i = %d 接受到 %d 字节 \n", i, ret_recv);
+                //printf("row = %d col = %d\n", info.ppos[1].row, info.ppos[1].col);
                 //printf("recv = %d\n", ret_recv);
                 #ifndef DEFAULT
                 draw();

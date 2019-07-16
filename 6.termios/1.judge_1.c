@@ -1,11 +1,11 @@
 /*************************************************************************
-	> File Name: 0.test.c
+	> File Name: 1.judge_1.c
 	> Author: Zip 
 	> Mail: 307110017@qq.com 
-	> Created Time: 2019年06月22日 星期六 14时53分11秒
+	> Created Time: 2019年07月16日 星期二 14时39分49秒
  ************************************************************************/
+
 #include<stdio.h>
-#include <curses.h>
 #include <stdbool.h>
 bool judge() {
     char ch;
