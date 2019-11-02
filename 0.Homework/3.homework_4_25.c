@@ -71,7 +71,6 @@ int main() {
             } else {
                 scanf("%s", addr);
             }
-            
             memset(all_addr, 0, strlen(all_addr));  //重构
             if(addr[0] == '/') {                  //键入的是绝对路径
                 strncpy(all_addr, addr, strlen(addr));
@@ -84,9 +83,7 @@ int main() {
             }else {                              //以当前路径为基准 寻找相对路径
                 sprintf(all_addr,"%s/%s",wd, addr);
             }
-
             int judge = chdir(all_addr);
-
             if(judge != 0) {    //chdir 失败
                 printf("bash: cd: %s: 没有那个文件或目录\n", addr);
             } else {

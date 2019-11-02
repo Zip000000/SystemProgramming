@@ -81,8 +81,7 @@ void ls_handle(char* wd) {
     }
 
     struct dirent* dirent;
-	while((dirent = readdir(dir)) != NULL)
-    {
+	while((dirent = readdir(dir)) != NULL) {
         char newwd[100];
         sprintf(newwd, "%s/%s", wd, dirent->d_name);
         stat(newwd,buf);
